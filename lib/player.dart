@@ -73,6 +73,9 @@ class Player {
           location -= 52;
         }
       }
+      if(total_moved + rolled >= 52){
+        inHomeStrip = true;
+      }
       print('$color $location');
       dicerolled = true;
       print('Original $rolled');

@@ -1139,11 +1139,10 @@ class LangawGame extends Game {
     }
 
     if (activeMode == Mode.twoPlayer || activeMode == Mode.threePlayer || activeMode == Mode.fourPlayer) {
-      if(activeView == View.playing && dice_green.choosePlayer == true &&
+/**      if(activeView == View.playing && dice_green.choosePlayer == true &&
           (player_green_1.position == 0 || player_green_2.position == 0 ||
               player_green_3.position == 0 || player_green_4.position == 0) &&
-          dice_green.rolled == 6){
-      }
+          dice_green.rolled == 6);
       else if (activeView == View.playing && dice_green.choosePlayer == true &&
           player_green_1.position == 0 && player_green_2.position == 0 &&
           player_green_3.position == 0 && player_green_4.position == 0 &&
@@ -1170,11 +1169,11 @@ class LangawGame extends Game {
         }
       }
 
-      else if (activeView == View.playing && dice_green.choosePlayer == true &&
-          (player_green_1.total_moved + dice_green.rolled > 57 || player_green_1.position == 0 || blocked.contains(player_green_1.location + dice_green.rolled) || (player_green_1.position == 0 && blocked.contains(1))) &&
-          (player_green_2.total_moved + dice_green.rolled > 57 || player_green_2.position == 0 || blocked.contains(player_green_2.location + dice_green.rolled) || (player_green_2.position == 0 && blocked.contains(1))) &&
-          (player_green_3.total_moved + dice_green.rolled > 57 || player_green_3.position == 0 || blocked.contains(player_green_3.location + dice_green.rolled) || (player_green_3.position == 0 && blocked.contains(1))) &&
-          (player_green_4.total_moved + dice_green.rolled > 57 || player_green_4.position == 0 || blocked.contains(player_green_4.location + dice_green.rolled)|| (player_green_4.position == 0 && blocked.contains(1)))) {
+*/      if (activeView == View.playing && dice_green.choosePlayer == true &&
+          (player_green_1.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_1.location + dice_green.rolled) && player_green_1.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_1.location + dice_green.rolled - 52) && player_green_1.location + dice_green.rolled >= 53))) || (player_green_1.position == 0 && blocked.contains(1))) &&
+          (player_green_2.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_2.location + dice_green.rolled) && player_green_2.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_2.location + dice_green.rolled - 52) && player_green_2.location + dice_green.rolled >= 53))) || (player_green_2.position == 0 && blocked.contains(1))) &&
+          (player_green_3.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_3.location + dice_green.rolled) && player_green_3.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_3.location + dice_green.rolled - 52) && player_green_3.location + dice_green.rolled >= 53))) || (player_green_3.position == 0 && blocked.contains(1))) &&
+          (player_green_4.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_4.location + dice_green.rolled) && player_green_4.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_4.location + dice_green.rolled - 52) && player_green_4.location + dice_green.rolled >= 53))) || (player_green_4.position == 0 && blocked.contains(1)))) {
         player_green_1.dicerolled = false;
         player_green_2.dicerolled = false;
         player_green_3.dicerolled = false;
@@ -1199,7 +1198,7 @@ class LangawGame extends Game {
     }
 
     if (activeMode == Mode.fourPlayer) {
-      if(activeView == View.playing && dice_yellow.choosePlayer == true &&
+/**      if(activeView == View.playing && dice_yellow.choosePlayer == true &&
           (player_yellow_1.position == 0 || player_yellow_2.position == 0 ||
               player_yellow_3.position == 0 || player_yellow_4.position == 0) &&
           dice_yellow.rolled == 6);
@@ -1218,11 +1217,11 @@ class LangawGame extends Game {
         dice_blue.isTurn = true;
       }
 
-      else if (activeView == View.playing && dice_yellow.choosePlayer == true &&
-          (player_yellow_1.total_moved + dice_yellow.rolled > 57 || player_yellow_1.position == 0 || blocked.contains(player_yellow_1.location + dice_yellow.rolled) || (player_yellow_1.position == 0 && blocked.contains(14))) &&
-          (player_yellow_2.total_moved + dice_yellow.rolled > 57 || player_yellow_2.position == 0 || blocked.contains(player_yellow_2.location + dice_yellow.rolled) || (player_yellow_2.position == 0 && blocked.contains(14))) &&
-          (player_yellow_3.total_moved + dice_yellow.rolled > 57 || player_yellow_3.position == 0 || blocked.contains(player_yellow_3.location + dice_yellow.rolled) || (player_yellow_3.position == 0 && blocked.contains(14))) &&
-          (player_yellow_4.total_moved + dice_yellow.rolled > 57 || player_yellow_4.position == 0 || blocked.contains(player_yellow_4.location + dice_yellow.rolled) || (player_yellow_4.position == 0 && blocked.contains(14)))) {
+*/      if (activeView == View.playing && dice_yellow.choosePlayer == true &&
+          (player_yellow_1.total_moved + dice_yellow.rolled > 57 || player_yellow_1.position == 0 || ((blocked.contains(player_yellow_1.location + dice_yellow.rolled) && player_yellow_1.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_1.location + dice_yellow.rolled - 52) && player_yellow_1.location + dice_yellow.rolled >= 53))) || (player_yellow_1.position == 0 && blocked.contains(14))) &&
+          (player_yellow_2.total_moved + dice_yellow.rolled > 57 || player_yellow_2.position == 0 || ((blocked.contains(player_yellow_2.location + dice_yellow.rolled) && player_yellow_2.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_2.location + dice_yellow.rolled - 52) && player_yellow_2.location + dice_yellow.rolled >= 53))) || (player_yellow_2.position == 0 && blocked.contains(14))) &&
+          (player_yellow_3.total_moved + dice_yellow.rolled > 57 || player_yellow_3.position == 0 || ((blocked.contains(player_yellow_3.location + dice_yellow.rolled) && player_yellow_3.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_3.location + dice_yellow.rolled - 52) && player_yellow_3.location + dice_yellow.rolled >= 53))) || (player_yellow_3.position == 0 && blocked.contains(14))) &&
+          (player_yellow_4.total_moved + dice_yellow.rolled > 57 || player_yellow_4.position == 0 || ((blocked.contains(player_yellow_4.location + dice_yellow.rolled) && player_yellow_4.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_4.location + dice_yellow.rolled - 52) && player_yellow_4.location + dice_yellow.rolled >= 53))) || (player_yellow_4.position == 0 && blocked.contains(14)))) {
         player_yellow_1.dicerolled = false;
         player_yellow_2.dicerolled = false;
         player_yellow_3.dicerolled = false;
@@ -1236,7 +1235,7 @@ class LangawGame extends Game {
     }
 
     if (activeMode == Mode.threePlayer || activeMode == Mode.fourPlayer) {
-      if(activeView == View.playing && dice_red.choosePlayer == true &&
+/**      if(activeView == View.playing && dice_red.choosePlayer == true &&
           (player_red_1.position == 0 || player_red_2.position == 0 ||
               player_red_3.position == 0 || player_red_4.position == 0) &&
           dice_red.rolled == 6);
@@ -1262,11 +1261,11 @@ class LangawGame extends Game {
         }
       }
 
-      else if (activeView == View.playing && dice_red.choosePlayer == true &&
-          (player_red_1.total_moved + dice_red.rolled > 57 || player_red_1.position == 0 || blocked.contains(player_red_1.location + dice_red.rolled) || (player_red_1.position == 0 && blocked.contains(40))) &&
-          (player_red_2.total_moved + dice_red.rolled > 57 || player_red_2.position == 0 || blocked.contains(player_red_2.location + dice_red.rolled) || (player_red_2.position == 0 && blocked.contains(40))) &&
-          (player_red_3.total_moved + dice_red.rolled > 57 || player_red_3.position == 0 || blocked.contains(player_red_3.location + dice_red.rolled) || (player_red_3.position == 0 && blocked.contains(40))) &&
-          (player_red_4.total_moved + dice_red.rolled > 57 || player_red_4.position == 0 || blocked.contains(player_red_4.location + dice_red.rolled) || (player_red_4.position == 0 && blocked.contains(40)))) {
+*/      if (activeView == View.playing && dice_red.choosePlayer == true &&
+          (player_red_1.total_moved + dice_red.rolled > 57 || player_red_1.position == 0 || ((blocked.contains(player_red_1.location + dice_red.rolled) && player_red_1.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_1.location + dice_red.rolled - 52) && player_red_1.location + dice_red.rolled >= 53))) || (player_red_1.position == 0 && blocked.contains(40))) &&
+          (player_red_2.total_moved + dice_red.rolled > 57 || player_red_2.position == 0 || ((blocked.contains(player_red_2.location + dice_red.rolled) && player_red_2.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_2.location + dice_red.rolled - 52) && player_red_2.location + dice_red.rolled >= 53))) || (player_red_2.position == 0 && blocked.contains(40))) &&
+          (player_red_3.total_moved + dice_red.rolled > 57 || player_red_3.position == 0 || ((blocked.contains(player_red_3.location + dice_red.rolled) && player_red_3.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_3.location + dice_red.rolled - 52) && player_red_3.location + dice_red.rolled >= 53))) || (player_red_3.position == 0 && blocked.contains(40))) &&
+          (player_red_4.total_moved + dice_red.rolled > 57 || player_red_4.position == 0 || ((blocked.contains(player_red_4.location + dice_red.rolled) && player_red_4.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_4.location + dice_red.rolled - 52) && player_red_4.location + dice_red.rolled >= 53))) || (player_red_4.position == 0 && blocked.contains(40)))) {
         player_red_1.dicerolled = false;
         player_red_2.dicerolled = false;
         player_red_3.dicerolled = false;
@@ -1287,7 +1286,7 @@ class LangawGame extends Game {
     }
 
     if (activeMode == Mode.twoPlayer || activeMode == Mode.threePlayer || activeMode == Mode.fourPlayer) {
-      if(activeView == View.playing && dice_blue.choosePlayer == true &&
+/**      if(activeView == View.playing && dice_blue.choosePlayer == true &&
           (player_blue_1.position == 0 || player_blue_2.position == 0 ||
               player_blue_3.position == 0 || player_blue_4.position == 0) &&
           dice_blue.rolled == 6){
@@ -1317,11 +1316,11 @@ class LangawGame extends Game {
         }
       }
 
-      else if (activeView == View.playing && dice_blue.choosePlayer == true &&
-          (player_blue_1.total_moved + dice_blue.rolled > 57 || player_blue_1.position == 0 || blocked.contains(player_blue_1.location + dice_blue.rolled) || (player_blue_1.position == 0 && blocked.contains(27))) &&
-          (player_blue_2.total_moved + dice_blue.rolled > 57 || player_blue_2.position == 0 || blocked.contains(player_blue_2.location + dice_blue.rolled) || (player_blue_2.position == 0 && blocked.contains(27))) &&
-          (player_blue_3.total_moved + dice_blue.rolled > 57 || player_blue_3.position == 0 || blocked.contains(player_blue_3.location + dice_blue.rolled) || (player_blue_3.position == 0 && blocked.contains(27))) &&
-          (player_blue_4.total_moved + dice_blue.rolled > 57 || player_blue_4.position == 0 || blocked.contains(player_blue_4.location + dice_blue.rolled) || (player_blue_4.position == 0 && blocked.contains(27)))) {
+*/      if (activeView == View.playing && dice_blue.choosePlayer == true &&
+          (player_blue_1.total_moved + dice_blue.rolled > 57 || player_blue_1.position == 0 || ((blocked.contains(player_green_1.location + dice_green.rolled) && player_green_1.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_1.location + dice_green.rolled - 52) && player_green_1.location + dice_green.rolled >= 53))) || (player_blue_1.position == 0 && blocked.contains(27))) &&
+          (player_blue_2.total_moved + dice_blue.rolled > 57 || player_blue_2.position == 0 || ((blocked.contains(player_green_2.location + dice_green.rolled) && player_green_2.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_2.location + dice_green.rolled - 52) && player_green_2.location + dice_green.rolled >= 53))) || (player_blue_2.position == 0 && blocked.contains(27))) &&
+          (player_blue_3.total_moved + dice_blue.rolled > 57 || player_blue_3.position == 0 || ((blocked.contains(player_green_3.location + dice_green.rolled) && player_green_3.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_3.location + dice_green.rolled - 52) && player_green_3.location + dice_green.rolled >= 53))) || (player_blue_3.position == 0 && blocked.contains(27))) &&
+          (player_blue_4.total_moved + dice_blue.rolled > 57 || player_blue_4.position == 0 || ((blocked.contains(player_green_4.location + dice_green.rolled) && player_green_4.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_4.location + dice_green.rolled - 52) && player_green_4.location + dice_green.rolled >= 53))) || (player_blue_4.position == 0 && blocked.contains(27)))) {
         player_blue_1.dicerolled = false;
         player_blue_2.dicerolled = false;
         player_blue_3.dicerolled = false;
@@ -1629,8 +1628,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_green_1.position != 0 || dice_green.rolled == 6) {
             if (player_green_1.total_moved + dice_green.rolled <= 57 &&
-                (blocked.contains(player_green_1.location + dice_green.rolled) ==
-                    false || (blocked.contains(player_green_1.location + dice_green.rolled - 52) == false && player_green_1.total_moved + dice_green.rolled >= 53)) && (player_green_1.position != 0 || blocked.contains(1) == false)) {
+                ((blocked.contains(player_green_1.location + dice_green.rolled) ==
+                    false && player_green_1.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_1.location + dice_green.rolled - 52) == false && player_green_1.location + dice_green.rolled >= 53))) && (player_green_1.position != 0 || blocked.contains(1) == false)) {
               if (blocked.contains(player_green_1.location)) {
                 blocked.remove(player_green_1.location);
                 player_green_1.blocked.remove(player_green_1.location);
@@ -2658,8 +2657,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_green_2.position != 0 || dice_green.rolled == 6) {
             if (player_green_2.total_moved + dice_green.rolled <= 57 &&
-                (blocked.contains(player_green_2.location + dice_green.rolled) ==
-                    false || (blocked.contains(player_green_2.location + dice_green.rolled - 52) == false && player_green_2.total_moved + dice_green.rolled >= 53)) && (player_green_2.position != 0 || blocked.contains(1) == false)) {
+                ((blocked.contains(player_green_2.location + dice_green.rolled) ==
+                    false && player_green_2.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_2.location + dice_green.rolled - 52) == false && player_green_2.location + dice_green.rolled >= 53))) && (player_green_2.position != 0 || blocked.contains(1) == false)) {
               if (blocked.contains(player_green_2.location)) {
                 blocked.remove(player_green_2.location);
                 player_green_2.blocked.remove(player_green_2.location);
@@ -3697,8 +3696,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_green_3.position != 0 || dice_green.rolled == 6) {
             if (player_green_3.total_moved + dice_green.rolled <= 57 &&
-                (blocked.contains(player_green_3.location + dice_green.rolled) ==
-                    false || (blocked.contains(player_green_3.location + dice_green.rolled - 52) == false && player_green_3.total_moved + dice_green.rolled >= 53)) && (player_green_3.position != 0 || blocked.contains(1) == false)) {
+                ((blocked.contains(player_green_3.location + dice_green.rolled) ==
+                    false && player_green_3.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_3.location + dice_green.rolled - 52) == false && player_green_3.location + dice_green.rolled >= 53))) && (player_green_3.position != 0 || blocked.contains(1) == false)) {
               if (blocked.contains(player_green_3.location)) {
                 blocked.remove(player_green_3.location);
                 player_green_3.blocked.remove(player_green_3.location);
@@ -4736,8 +4735,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_green_4.position != 0 || dice_green.rolled == 6) {
             if (player_green_4.total_moved + dice_green.rolled <= 57 &&
-                (blocked.contains(player_green_4.location + dice_green.rolled) ==
-                    false || (blocked.contains(player_green_4.location + dice_green.rolled - 52) == false && player_green_4.total_moved + dice_green.rolled >= 53)) && (player_green_4.position != 0 || blocked.contains(1) == false)) {
+                ((blocked.contains(player_green_4.location + dice_green.rolled) ==
+                    false && player_green_4.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_4.location + dice_green.rolled - 52) == false && player_green_4.location + dice_green.rolled >= 53))) && (player_green_4.position != 0 || blocked.contains(1) == false)) {
               if (blocked.contains(player_green_4.location)) {
                 blocked.remove(player_green_4.location);
                 player_green_4.blocked.remove(player_green_4.location);
@@ -5777,8 +5776,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_yellow_1.position != 0 || dice_yellow.rolled == 6) {
             if (player_yellow_1.total_moved + dice_yellow.rolled <= 57 &&
-                (blocked.contains(player_yellow_1.location + dice_yellow.rolled) ==
-                    false || (blocked.contains(player_yellow_1.location + dice_yellow.rolled - 52) == false && player_yellow_1.total_moved + dice_yellow.rolled >= 53)) && (player_yellow_1.position != 0 || blocked.contains(14) == false)) {
+                ((blocked.contains(player_yellow_1.location + dice_yellow.rolled) ==
+                    false && player_yellow_1.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_1.location + dice_yellow.rolled - 52) == false && player_yellow_1.location + dice_yellow.rolled >= 53))) && (player_yellow_1.position != 0 || blocked.contains(14) == false)) {
               if (blocked.contains(player_yellow_1.location)) {
                 blocked.remove(player_yellow_1.location);
                 player_yellow_1.blocked.remove(player_yellow_1.location);
@@ -6300,8 +6299,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_yellow_2.position != 0 || dice_yellow.rolled == 6) {
             if (player_yellow_2.total_moved + dice_yellow.rolled <= 57 &&
-                (blocked.contains(player_yellow_2.location + dice_yellow.rolled) ==
-                    false || (blocked.contains(player_yellow_2.location + dice_yellow.rolled - 52) == false && player_yellow_2.total_moved + dice_yellow.rolled >= 53)) && (player_yellow_2.position != 0 || blocked.contains(14) == false)) {
+                ((blocked.contains(player_yellow_2.location + dice_yellow.rolled) ==
+                    false && player_yellow_2.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_2.location + dice_yellow.rolled - 52) == false && player_yellow_2.location + dice_yellow.rolled >= 53))) && (player_yellow_2.position != 0 || blocked.contains(14) == false)) {
               if (blocked.contains(player_yellow_2.location)) {
                 blocked.remove(player_yellow_2.location);
                 player_yellow_2.blocked.remove(player_yellow_2.location);
@@ -6823,8 +6822,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_yellow_3.position != 0 || dice_yellow.rolled == 6) {
             if (player_yellow_3.total_moved + dice_yellow.rolled <= 57 &&
-                (blocked.contains(player_yellow_3.location + dice_yellow.rolled) ==
-                    false || (blocked.contains(player_yellow_3.location + dice_yellow.rolled - 52) == false && player_yellow_3.total_moved + dice_yellow.rolled >= 53)) && (player_yellow_3.position != 0 || blocked.contains(14) == false)) {
+                ((blocked.contains(player_yellow_3.location + dice_yellow.rolled) ==
+                    false && player_yellow_3.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_3.location + dice_yellow.rolled - 52) == false && player_yellow_3.location + dice_yellow.rolled >= 53))) && (player_yellow_3.position != 0 || blocked.contains(14) == false)) {
               if (blocked.contains(player_yellow_3.location)) {
                 blocked.remove(player_yellow_3.location);
                 player_yellow_3.blocked.remove(player_yellow_3.location);
@@ -7346,8 +7345,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_yellow_4.position != 0 || dice_yellow.rolled == 6) {
             if (player_yellow_4.total_moved + dice_yellow.rolled <= 57 &&
-                (blocked.contains(player_yellow_4.location + dice_yellow.rolled) ==
-                    false || (blocked.contains(player_yellow_4.location + dice_yellow.rolled - 52) == false && player_yellow_4.total_moved + dice_yellow.rolled >= 53)) && (player_yellow_4.position != 0 || blocked.contains(14) == false)) {
+                ((blocked.contains(player_yellow_4.location + dice_yellow.rolled) ==
+                    false && player_yellow_4.location + dice_yellow.rolled <= 52) || ((blocked.contains(player_yellow_4.location + dice_yellow.rolled - 52) == false && player_yellow_4.location + dice_yellow.rolled >= 53))) && (player_yellow_4.position != 0 || blocked.contains(14) == false)) {
               if (blocked.contains(player_yellow_4.location)) {
                 blocked.remove(player_yellow_4.location);
                 player_yellow_4.blocked.remove(player_yellow_4.location);
@@ -7871,8 +7870,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_red_1.position != 0 || dice_red.rolled == 6) {
             if (player_red_1.total_moved + dice_red.rolled <= 57 &&
-                (blocked.contains(player_red_1.location + dice_red.rolled) ==
-                    false || (blocked.contains(player_red_1.location + dice_red.rolled - 52) == false && player_red_1.total_moved + dice_red.rolled >= 53)) && (player_red_1.position != 0 || blocked.contains(40) == false)) {
+                ((blocked.contains(player_red_1.location + dice_red.rolled) ==
+                    false && player_red_1.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_1.location + dice_red.rolled - 52) == false && player_red_1.location + dice_red.rolled >= 53))) && (player_red_1.position != 0 || blocked.contains(40) == false)) {
               if (blocked.contains(player_red_1.location)) {
                 blocked.remove(player_red_1.location);
                 player_red_1.blocked.remove(player_red_1.location);
@@ -8736,8 +8735,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_red_2.position != 0 || dice_red.rolled == 6) {
             if (player_red_2.total_moved + dice_red.rolled <= 57 &&
-                (blocked.contains(player_red_2.location + dice_red.rolled) ==
-                    false  || (blocked.contains(player_red_2.location + dice_red.rolled - 52) == false && player_red_2.total_moved + dice_red.rolled >= 53)) && (player_red_2.position != 0 || blocked.contains(40) == false)) {
+                ((blocked.contains(player_red_2.location + dice_red.rolled) ==
+                    false && player_red_2.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_2.location + dice_red.rolled - 52) == false && player_red_2.location + dice_red.rolled >= 53))) && (player_red_2.position != 0 || blocked.contains(40) == false)) {
               if (blocked.contains(player_red_2.location)) {
                 blocked.remove(player_red_2.location);
                 player_red_2.blocked.remove(player_red_2.location);
@@ -9600,8 +9599,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_red_3.position != 0 || dice_red.rolled == 6) {
             if (player_red_3.total_moved + dice_red.rolled <= 57 &&
-                (blocked.contains(player_red_3.location + dice_red.rolled) ==
-                    false  || (blocked.contains(player_red_3.location + dice_red.rolled - 52) == false && player_red_3.total_moved + dice_red.rolled >= 53)) && (player_red_3.position != 0 || blocked.contains(40) == false)) {
+                ((blocked.contains(player_red_2.location + dice_red.rolled) ==
+                    false && player_red_2.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_2.location + dice_red.rolled - 52) == false && player_red_2.location + dice_red.rolled >= 53))) && (player_red_3.position != 0 || blocked.contains(40) == false)) {
               if (blocked.contains(player_red_3.location)) {
                 blocked.remove(player_red_3.location);
                 player_red_3.blocked.remove(player_red_3.location);
@@ -10464,8 +10463,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_red_4.position != 0 || dice_red.rolled == 6) {
             if (player_red_4.total_moved + dice_red.rolled <= 57 &&
-                (blocked.contains(player_red_4.location + dice_red.rolled) ==
-                    false  || (blocked.contains(player_red_4.location + dice_red.rolled - 52) == false && player_red_4.total_moved + dice_red.rolled >= 53)) && (player_red_4.position != 0 || blocked.contains(40) == false)) {
+                ((blocked.contains(player_red_4.location + dice_red.rolled) ==
+                    false && player_red_4.location + dice_red.rolled <= 52) || ((blocked.contains(player_red_4.location + dice_red.rolled - 52) == false && player_red_4.location + dice_red.rolled >= 53))) && (player_red_4.position != 0 || blocked.contains(40) == false)) {
               if (blocked.contains(player_red_4.location)) {
                 blocked.remove(player_red_4.location);
                 player_red_4.blocked.remove(player_red_4.location);
@@ -11331,8 +11330,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_blue_1.position != 0 || dice_blue.rolled == 6) {
             if (player_blue_1.total_moved + dice_blue.rolled <= 57 &&
-                blocked.contains(player_blue_1.location + dice_blue.rolled) ==
-                    false || (blocked.contains(player_blue_1.location + dice_blue.rolled - 52) == false && player_blue_1.total_moved + dice_blue.rolled >= 53) && (player_blue_1.position != 0 || blocked.contains(27) == false)) {
+                ((blocked.contains(player_blue_1.location + dice_blue.rolled) ==
+                    false && player_blue_1.location + dice_blue.rolled <= 52) || ((blocked.contains(player_blue_1.location + dice_blue.rolled - 52) == false && player_blue_1.location + dice_blue.rolled >= 53))) && (player_blue_1.position != 0 || blocked.contains(27) == false)) {
               if (blocked.contains(player_blue_1.location)) {
                 blocked.remove(player_blue_1.location);
                 player_blue_1.blocked.remove(player_blue_1.location);
@@ -12322,8 +12321,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_blue_2.position != 0 || dice_blue.rolled == 6) {
             if (player_blue_2.total_moved + dice_blue.rolled <= 57 &&
-                (blocked.contains(player_blue_2.location + dice_blue.rolled) ==
-                    false || (blocked.contains(player_blue_2.location + dice_blue.rolled - 52) == false && player_blue_2.total_moved + dice_blue.rolled >= 53)) && (player_blue_2.position != 0 || blocked.contains(27) == false)) {
+                ((blocked.contains(player_blue_2.location + dice_blue.rolled) ==
+                    false && player_blue_2.location + dice_blue.rolled <= 52) || ((blocked.contains(player_blue_2.location + dice_blue.rolled - 52) == false && player_blue_2.location + dice_blue.rolled >= 53))) && (player_blue_2.position != 0 || blocked.contains(27) == false)) {
               if (blocked.contains(player_blue_2.location)) {
                 blocked.remove(player_blue_2.location);
                 player_blue_2.blocked.remove(player_blue_2.location);
@@ -13313,8 +13312,8 @@ class LangawGame extends Game {
                 d.globalPosition)) {
           if (player_blue_3.position != 0 || dice_blue.rolled == 6) {
             if (player_blue_3.total_moved + dice_blue.rolled <= 57 &&
-                (blocked.contains(player_blue_3.location + dice_blue.rolled) ==
-                    false || (blocked.contains(player_blue_3.location + dice_blue.rolled - 52) == false && player_blue_3.total_moved + dice_blue.rolled >= 53)) && (player_blue_3.position != 0 || blocked.contains(27) == false)) {
+                ((blocked.contains(player_blue_3.location + dice_blue.rolled) ==
+                    false && player_blue_3.location + dice_blue.rolled <= 52) || ((blocked.contains(player_blue_3.location + dice_blue.rolled - 52) == false && player_blue_3.location + dice_blue.rolled >= 53))) && (player_blue_3.position != 0 || blocked.contains(27) == false)) {
               if (blocked.contains(player_blue_3.location)) {
                 blocked.remove(player_blue_3.location);
                 player_blue_3.blocked.remove(player_blue_3.location);
@@ -14305,7 +14304,7 @@ class LangawGame extends Game {
           if (player_blue_4.position != 0 || dice_blue.rolled == 6) {
             if (player_blue_4.total_moved + dice_blue.rolled <= 57 &&
                 ((blocked.contains(player_blue_4.location + dice_blue.rolled) ==
-                    false || (blocked.contains(player_blue_4.location + dice_blue.rolled - 52) == false && player_blue_4.total_moved + dice_blue.rolled >= 53))) && (player_blue_4.position != 0 || blocked.contains(27) == false)) {
+                    false && player_blue_4.location + dice_blue.rolled <= 52) || ((blocked.contains(player_blue_4.location + dice_blue.rolled - 52) == false && player_blue_4.location + dice_blue.rolled >= 53))) && (player_blue_4.position != 0 || blocked.contains(27) == false)) {
               if (blocked.contains(player_blue_4.location)) {
                 blocked.remove(player_blue_4.location);
                 player_blue_4.blocked.remove(player_blue_4.location);
