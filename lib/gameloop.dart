@@ -965,7 +965,7 @@ class LangawGame extends Game {
           player_green_1.counter != player_green_1.rolled) {
         player_green_1.update(t);
         if (player_green_1.counter == player_green_1.rolled) {
-          player_green_1.total_moved += player_green_1.rolled;
+//          player_green_1.total_moved += player_green_1.rolled;
           player_green_1.counter = 0;
           player_green_1.rolled = 0;
           player_green_1.dicerolled = false;
@@ -976,7 +976,7 @@ class LangawGame extends Game {
           player_green_2.counter != player_green_2.rolled) {
         player_green_2.update(t);
         if (player_green_2.counter == player_green_2.rolled) {
-          player_green_2.total_moved += player_green_2.rolled;
+//          player_green_2.total_moved += player_green_2.rolled;
           player_green_2.counter = 0;
           player_green_2.rolled = 0;
           player_green_2.dicerolled = false;
@@ -998,7 +998,7 @@ class LangawGame extends Game {
           player_green_4.counter != player_green_4.rolled) {
         player_green_4.update(t);
         if (player_green_4.counter == player_green_4.rolled) {
-          player_green_4.total_moved += player_green_4.rolled;
+//          player_green_4.total_moved += player_green_4.rolled;
           player_green_4.counter = 0;
           player_green_4.rolled = 0;
           player_green_4.dicerolled = false;
@@ -1011,7 +1011,7 @@ class LangawGame extends Game {
           player_yellow_1.counter != player_yellow_1.rolled) {
         player_yellow_1.update(t);
         if (player_yellow_1.counter == player_yellow_1.rolled) {
-          player_yellow_1.total_moved += player_yellow_1.rolled;
+//          player_yellow_1.total_moved += player_yellow_1.rolled;
           player_yellow_1.counter = 0;
           player_yellow_1.rolled = 0;
           player_yellow_1.dicerolled = false;
@@ -1021,7 +1021,7 @@ class LangawGame extends Game {
           player_yellow_2.counter != player_yellow_2.rolled) {
         player_yellow_2.update(t);
         if (player_yellow_2.counter == player_yellow_2.rolled) {
-          player_yellow_2.total_moved += player_yellow_2.rolled;
+//          player_yellow_2.total_moved += player_yellow_2.rolled;
           player_yellow_2.counter = 0;
           player_yellow_2.rolled = 0;
           player_yellow_2.dicerolled = false;
@@ -1031,7 +1031,7 @@ class LangawGame extends Game {
           player_yellow_3.counter != player_yellow_3.rolled) {
         player_yellow_3.update(t);
         if (player_yellow_3.counter == player_yellow_3.rolled) {
-          player_yellow_3.total_moved += player_yellow_3.rolled;
+//          player_yellow_3.total_moved += player_yellow_3.rolled;
           player_yellow_3.counter = 0;
           player_yellow_3.rolled = 0;
           player_yellow_3.dicerolled = false;
@@ -1041,7 +1041,7 @@ class LangawGame extends Game {
           player_yellow_4.counter != player_yellow_4.rolled) {
         player_yellow_4.update(t);
         if (player_yellow_4.counter == player_yellow_4.rolled) {
-          player_yellow_4.total_moved += player_yellow_4.rolled;
+//          player_yellow_4.total_moved += player_yellow_4.rolled;
           player_yellow_4.counter = 0;
           player_yellow_4.rolled = 0;
           player_yellow_4.dicerolled = false;
@@ -1054,7 +1054,7 @@ class LangawGame extends Game {
           player_red_1.counter != player_red_1.rolled) {
         player_red_1.update(t);
         if (player_red_1.counter == player_red_1.rolled) {
-          player_red_1.total_moved += player_red_1.rolled;
+//          player_red_1.total_moved += player_red_1.rolled;
           player_red_1.counter = 0;
           player_red_1.rolled = 0;
           player_red_1.dicerolled = false;
@@ -1065,7 +1065,7 @@ class LangawGame extends Game {
           player_red_2.counter != player_red_2.rolled) {
         player_red_2.update(t);
         if (player_red_2.counter == player_red_2.rolled) {
-          player_red_2.total_moved += player_red_2.rolled;
+//          player_red_2.total_moved += player_red_2.rolled;
           player_red_2.counter = 0;
           player_red_2.rolled = 0;
           player_red_2.dicerolled = false;
@@ -1076,7 +1076,7 @@ class LangawGame extends Game {
           player_red_3.counter != player_red_3.rolled) {
         player_red_3.update(t);
         if (player_red_3.counter == player_red_3.rolled) {
-          player_red_3.total_moved += player_red_3.rolled;
+//          player_red_3.total_moved += player_red_3.rolled;
           player_red_3.counter = 0;
           player_red_3.rolled = 0;
           player_red_3.dicerolled = false;
@@ -1087,7 +1087,7 @@ class LangawGame extends Game {
           player_red_4.counter != player_red_4.rolled) {
         player_red_4.update(t);
         if (player_red_4.counter == player_red_4.rolled) {
-          player_red_4.total_moved += player_red_4.rolled;
+//          player_red_4.total_moved += player_red_4.rolled;
           player_red_4.counter = 0;
           player_red_4.rolled = 0;
           player_red_4.dicerolled = false;
@@ -1100,7 +1100,7 @@ class LangawGame extends Game {
           player_blue_1.counter != player_blue_1.rolled) {
         player_blue_1.update(t);
         if (player_blue_1.counter == player_blue_1.rolled) {
-          player_blue_1.total_moved += player_blue_1.rolled;
+//          player_blue_1.total_moved += player_blue_1.rolled;
           player_blue_1.counter = 0;
           player_blue_1.rolled = 0;
           player_blue_1.dicerolled = false;
@@ -1110,7 +1110,7 @@ class LangawGame extends Game {
           player_blue_2.counter != player_blue_2.rolled) {
         player_blue_2.update(t);
         if (player_blue_2.counter == player_blue_2.rolled) {
-          player_blue_2.total_moved += player_blue_2.rolled;
+//          player_blue_2.total_moved += player_blue_2.rolled;
           player_blue_2.counter = 0;
           player_blue_2.rolled = 0;
           player_blue_2.dicerolled = false;
@@ -1120,7 +1120,7 @@ class LangawGame extends Game {
           player_blue_3.counter != player_blue_3.rolled) {
         player_blue_3.update(t);
         if (player_blue_3.counter == player_blue_3.rolled) {
-          player_blue_3.total_moved += player_blue_3.rolled;
+//          player_blue_3.total_moved += player_blue_3.rolled;
           player_blue_3.counter = 0;
           player_blue_3.rolled = 0;
           player_blue_3.dicerolled = false;
@@ -1130,7 +1130,7 @@ class LangawGame extends Game {
           player_blue_4.counter != player_blue_4.rolled) {
         player_blue_4.update(t);
         if (player_blue_4.counter == player_blue_4.rolled) {
-          player_blue_4.total_moved += player_blue_4.rolled;
+//          player_blue_4.total_moved += player_blue_4.rolled;
           player_blue_4.counter = 0;
           player_blue_4.rolled = 0;
           player_blue_4.dicerolled = false;
@@ -1522,6 +1522,7 @@ class LangawGame extends Game {
             player_green_1.playerRect.inflate(playertileSize / 2).contains(
                 d.globalPosition)) {
           if (player_green_1.position != 0 || dice_green.rolled == 6) {
+            //Needs fix
             if (player_green_1.total_moved + dice_green.rolled <= 57 &&
                 ((blocked.contains(player_green_1.location + dice_green.rolled) ==
                     false && player_green_1.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_1.location + dice_green.rolled - 52) == false && player_green_1.location + dice_green.rolled >= 53))) && (player_green_1.position != 0 || blocked.contains(1) == false)) {
@@ -1530,11 +1531,14 @@ class LangawGame extends Game {
                 player_green_1.blocked.remove(player_green_1.location);
               }
               player_green_1.roll(dice_green.rolled);
+              print(player_green_1.location);
+              print(player_green_1.position);
+              print(player_green_1.total_moved);
               dice_green.choosePlayer = false;
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_1.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_green_1.position != 0 && player_blue_1.position != 0 && player_green_1.total_moved != 0 && player_blue_1.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1575,7 +1579,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0 && player_green_1.total_moved != 0 && player_blue_2.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1616,7 +1620,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0 && player_green_1.total_moved != 0 && player_blue_3.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1657,7 +1661,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0 && player_green_1.total_moved != 0 && player_blue_4.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1710,7 +1714,7 @@ class LangawGame extends Game {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
                     player_blue_1.inHomeStrip == false) {
-                  if (player_green_1.save.contains(player_green_1.location) && player_green_1.position != 0 && player_blue_1.position != 0) {
+                  if (player_green_1.save.contains(player_green_1.location) && player_green_1.position != 0 && player_blue_1.position != 0 && player_green_2.total_moved != 0 && player_blue_1.total_moved != 0) {
                     print("Save");
                     blocked.add(player_green_1.location);
                     player_green_1.blocked.add(player_green_1.location);
@@ -1750,7 +1754,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0 && player_green_2.total_moved != 0 && player_blue_2.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1791,7 +1795,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0 && player_green_2.total_moved != 0 && player_blue_3.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1832,7 +1836,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0 && player_green_2.total_moved != 0 && player_blue_4.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1873,7 +1877,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_1.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_green_1.position != 0 && player_red_1.position != 0 && player_green_2.total_moved != 0 && player_red_1.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1914,7 +1918,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_1.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_green_1.position != 0 && player_red_2.position != 0 && player_green_2.total_moved != 0 && player_red_2.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1955,7 +1959,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_1.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_green_1.position != 0 && player_red_3.position != 0 && player_green_2.total_moved != 0 && player_red_3.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1996,7 +2000,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_1.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_green_1.position != 0 && player_red_4.position != 0 && player_green_2.total_moved != 0 && player_red_4.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2050,7 +2054,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_1.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_green_1.position != 0 && player_blue_1.position != 0 && player_green_2.total_moved != 0 && player_blue_1.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2091,7 +2095,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0 && player_green_2.total_moved != 0 && player_blue_2.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2120,7 +2124,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0 && player_green_2.total_moved != 0 && player_blue_3.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2161,7 +2165,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0 && player_green_2.total_moved != 0 && player_blue_4.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2202,7 +2206,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_green_1.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_green_1.position != 0 && player_yellow_1.position != 0 && player_green_2.total_moved != 0 && player_yellow_1.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2243,7 +2247,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_green_1.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_green_1.position != 0 && player_yellow_2.position != 0 && player_green_2.total_moved != 0 && player_yellow_2.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2284,7 +2288,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_green_1.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_green_1.position != 0 && player_yellow_3.position != 0 && player_green_2.total_moved != 0 && player_yellow_3.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2325,7 +2329,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_green_1.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_green_1.position != 0 && player_yellow_4.position != 0 && player_green_2.total_moved != 0 && player_yellow_4.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2366,7 +2370,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_1.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_green_1.position != 0 && player_red_1.position != 0 && player_green_2.total_moved != 0 && player_red_1.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2407,7 +2411,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_1.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_green_1.position != 0 && player_red_2.position != 0 && player_green_2.total_moved != 0 && player_red_2.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2448,7 +2452,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_1.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_green_1.position != 0 && player_red_3.position != 0 && player_green_2.total_moved != 0 && player_red_3.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2489,7 +2493,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_1.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_green_1.position != 0 && player_red_4.position != 0 && player_green_2.total_moved != 0 && player_red_4.total_moved != 0) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2563,7 +2567,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_2.location == player_blue_1.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_2.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_green_2.position != 0 && player_blue_1.position != 0 && player_green_2.total_moved != 0 && player_blue_1.total_moved != 0) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2604,7 +2608,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_2.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_2.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_green_2.position != 0 && player_blue_2.position != 0 && player_green_2.total_moved != 0 && player_blue_2.total_moved != 0) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2645,7 +2649,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_3.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_2.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_green_2.position != 0 && player_blue_3.position != 0 && player_green_2.total_moved != 0 && player_blue_3.total_moved != 0) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
