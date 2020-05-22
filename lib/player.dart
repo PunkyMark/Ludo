@@ -45,6 +45,7 @@ class Player {
   String color;
   double xone;
   double yone;
+  bool isOut = false;
   int total_moved = 1;
 
   Player(this.game, this.position, this.x, this.y, this.sprite, this.color, this.xone, this.yone) {
@@ -76,7 +77,7 @@ class Player {
       if(total_moved + rolled >= 52){
         inHomeStrip = true;
       }
-      total_moved += rolled;
+      isOut = true;
       print('$color $location');
       dicerolled = true;
       print('Original $rolled');

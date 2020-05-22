@@ -965,7 +965,7 @@ class LangawGame extends Game {
           player_green_1.counter != player_green_1.rolled) {
         player_green_1.update(t);
         if (player_green_1.counter == player_green_1.rolled) {
-//          player_green_1.total_moved += player_green_1.rolled;
+          player_green_1.total_moved += player_green_1.rolled;
           player_green_1.counter = 0;
           player_green_1.rolled = 0;
           player_green_1.dicerolled = false;
@@ -976,7 +976,7 @@ class LangawGame extends Game {
           player_green_2.counter != player_green_2.rolled) {
         player_green_2.update(t);
         if (player_green_2.counter == player_green_2.rolled) {
-//          player_green_2.total_moved += player_green_2.rolled;
+          player_green_2.total_moved += player_green_2.rolled;
           player_green_2.counter = 0;
           player_green_2.rolled = 0;
           player_green_2.dicerolled = false;
@@ -998,7 +998,7 @@ class LangawGame extends Game {
           player_green_4.counter != player_green_4.rolled) {
         player_green_4.update(t);
         if (player_green_4.counter == player_green_4.rolled) {
-//          player_green_4.total_moved += player_green_4.rolled;
+          player_green_4.total_moved += player_green_4.rolled;
           player_green_4.counter = 0;
           player_green_4.rolled = 0;
           player_green_4.dicerolled = false;
@@ -1011,7 +1011,7 @@ class LangawGame extends Game {
           player_yellow_1.counter != player_yellow_1.rolled) {
         player_yellow_1.update(t);
         if (player_yellow_1.counter == player_yellow_1.rolled) {
-//          player_yellow_1.total_moved += player_yellow_1.rolled;
+          player_yellow_1.total_moved += player_yellow_1.rolled;
           player_yellow_1.counter = 0;
           player_yellow_1.rolled = 0;
           player_yellow_1.dicerolled = false;
@@ -1021,7 +1021,7 @@ class LangawGame extends Game {
           player_yellow_2.counter != player_yellow_2.rolled) {
         player_yellow_2.update(t);
         if (player_yellow_2.counter == player_yellow_2.rolled) {
-//          player_yellow_2.total_moved += player_yellow_2.rolled;
+          player_yellow_2.total_moved += player_yellow_2.rolled;
           player_yellow_2.counter = 0;
           player_yellow_2.rolled = 0;
           player_yellow_2.dicerolled = false;
@@ -1031,7 +1031,7 @@ class LangawGame extends Game {
           player_yellow_3.counter != player_yellow_3.rolled) {
         player_yellow_3.update(t);
         if (player_yellow_3.counter == player_yellow_3.rolled) {
-//          player_yellow_3.total_moved += player_yellow_3.rolled;
+          player_yellow_3.total_moved += player_yellow_3.rolled;
           player_yellow_3.counter = 0;
           player_yellow_3.rolled = 0;
           player_yellow_3.dicerolled = false;
@@ -1041,7 +1041,7 @@ class LangawGame extends Game {
           player_yellow_4.counter != player_yellow_4.rolled) {
         player_yellow_4.update(t);
         if (player_yellow_4.counter == player_yellow_4.rolled) {
-//          player_yellow_4.total_moved += player_yellow_4.rolled;
+          player_yellow_4.total_moved += player_yellow_4.rolled;
           player_yellow_4.counter = 0;
           player_yellow_4.rolled = 0;
           player_yellow_4.dicerolled = false;
@@ -1054,7 +1054,7 @@ class LangawGame extends Game {
           player_red_1.counter != player_red_1.rolled) {
         player_red_1.update(t);
         if (player_red_1.counter == player_red_1.rolled) {
-//          player_red_1.total_moved += player_red_1.rolled;
+          player_red_1.total_moved += player_red_1.rolled;
           player_red_1.counter = 0;
           player_red_1.rolled = 0;
           player_red_1.dicerolled = false;
@@ -1065,7 +1065,7 @@ class LangawGame extends Game {
           player_red_2.counter != player_red_2.rolled) {
         player_red_2.update(t);
         if (player_red_2.counter == player_red_2.rolled) {
-//          player_red_2.total_moved += player_red_2.rolled;
+          player_red_2.total_moved += player_red_2.rolled;
           player_red_2.counter = 0;
           player_red_2.rolled = 0;
           player_red_2.dicerolled = false;
@@ -1076,7 +1076,7 @@ class LangawGame extends Game {
           player_red_3.counter != player_red_3.rolled) {
         player_red_3.update(t);
         if (player_red_3.counter == player_red_3.rolled) {
-//          player_red_3.total_moved += player_red_3.rolled;
+          player_red_3.total_moved += player_red_3.rolled;
           player_red_3.counter = 0;
           player_red_3.rolled = 0;
           player_red_3.dicerolled = false;
@@ -1087,7 +1087,7 @@ class LangawGame extends Game {
           player_red_4.counter != player_red_4.rolled) {
         player_red_4.update(t);
         if (player_red_4.counter == player_red_4.rolled) {
-//          player_red_4.total_moved += player_red_4.rolled;
+          player_red_4.total_moved += player_red_4.rolled;
           player_red_4.counter = 0;
           player_red_4.rolled = 0;
           player_red_4.dicerolled = false;
@@ -1100,7 +1100,7 @@ class LangawGame extends Game {
           player_blue_1.counter != player_blue_1.rolled) {
         player_blue_1.update(t);
         if (player_blue_1.counter == player_blue_1.rolled) {
-//          player_blue_1.total_moved += player_blue_1.rolled;
+          player_blue_1.total_moved += player_blue_1.rolled;
           player_blue_1.counter = 0;
           player_blue_1.rolled = 0;
           player_blue_1.dicerolled = false;
@@ -1110,7 +1110,7 @@ class LangawGame extends Game {
           player_blue_2.counter != player_blue_2.rolled) {
         player_blue_2.update(t);
         if (player_blue_2.counter == player_blue_2.rolled) {
-//          player_blue_2.total_moved += player_blue_2.rolled;
+          player_blue_2.total_moved += player_blue_2.rolled;
           player_blue_2.counter = 0;
           player_blue_2.rolled = 0;
           player_blue_2.dicerolled = false;
@@ -1120,7 +1120,7 @@ class LangawGame extends Game {
           player_blue_3.counter != player_blue_3.rolled) {
         player_blue_3.update(t);
         if (player_blue_3.counter == player_blue_3.rolled) {
-//          player_blue_3.total_moved += player_blue_3.rolled;
+          player_blue_3.total_moved += player_blue_3.rolled;
           player_blue_3.counter = 0;
           player_blue_3.rolled = 0;
           player_blue_3.dicerolled = false;
@@ -1130,7 +1130,7 @@ class LangawGame extends Game {
           player_blue_4.counter != player_blue_4.rolled) {
         player_blue_4.update(t);
         if (player_blue_4.counter == player_blue_4.rolled) {
-//          player_blue_4.total_moved += player_blue_4.rolled;
+          player_blue_4.total_moved += player_blue_4.rolled;
           player_blue_4.counter = 0;
           player_blue_4.rolled = 0;
           player_blue_4.dicerolled = false;
@@ -1141,9 +1141,9 @@ class LangawGame extends Game {
     if (activeMode == Mode.twoPlayer || activeMode == Mode.threePlayer || activeMode == Mode.fourPlayer) {
       if (activeView == View.playing && dice_green.choosePlayer == true &&
           (player_green_1.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_1.location + dice_green.rolled) && player_green_1.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_1.location + dice_green.rolled - 52) && player_green_1.location + dice_green.rolled >= 53))) || (player_green_1.position == 0 && blocked.contains(1))) &&
-          (player_green_2.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_2.location + dice_green.rolled) && player_green_2.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_2.location + dice_green.rolled - 52) && player_green_2.location + dice_green.rolled >= 53))) || (player_green_2.position == 0 && blocked.contains(1))) &&
-          (player_green_3.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_3.location + dice_green.rolled) && player_green_3.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_3.location + dice_green.rolled - 52) && player_green_3.location + dice_green.rolled >= 53))) || (player_green_3.position == 0 && blocked.contains(1))) &&
-          (player_green_4.total_moved + dice_green.rolled > 57 || (player_green_1.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_4.location + dice_green.rolled) && player_green_4.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_4.location + dice_green.rolled - 52) && player_green_4.location + dice_green.rolled >= 53))) || (player_green_4.position == 0 && blocked.contains(1)))) {
+          (player_green_2.total_moved + dice_green.rolled > 57 || (player_green_2.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_2.location + dice_green.rolled) && player_green_2.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_2.location + dice_green.rolled - 52) && player_green_2.location + dice_green.rolled >= 53))) || (player_green_2.position == 0 && blocked.contains(1))) &&
+          (player_green_3.total_moved + dice_green.rolled > 57 || (player_green_3.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_3.location + dice_green.rolled) && player_green_3.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_3.location + dice_green.rolled - 52) && player_green_3.location + dice_green.rolled >= 53))) || (player_green_3.position == 0 && blocked.contains(1))) &&
+          (player_green_4.total_moved + dice_green.rolled > 57 || (player_green_4.position == 0 && dice_green.rolled != 6) || ((blocked.contains(player_green_4.location + dice_green.rolled) && player_green_4.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_4.location + dice_green.rolled - 52) && player_green_4.location + dice_green.rolled >= 53))) || (player_green_4.position == 0 && blocked.contains(1)))) {
         player_green_1.dicerolled = false;
         player_green_2.dicerolled = false;
         player_green_3.dicerolled = false;
@@ -1522,7 +1522,6 @@ class LangawGame extends Game {
             player_green_1.playerRect.inflate(playertileSize / 2).contains(
                 d.globalPosition)) {
           if (player_green_1.position != 0 || dice_green.rolled == 6) {
-            //Needs fix
             if (player_green_1.total_moved + dice_green.rolled <= 57 &&
                 ((blocked.contains(player_green_1.location + dice_green.rolled) ==
                     false && player_green_1.location + dice_green.rolled <= 52) || ((blocked.contains(player_green_1.location + dice_green.rolled - 52) == false && player_green_1.location + dice_green.rolled >= 53))) && (player_green_1.position != 0 || blocked.contains(1) == false)) {
@@ -1531,14 +1530,11 @@ class LangawGame extends Game {
                 player_green_1.blocked.remove(player_green_1.location);
               }
               player_green_1.roll(dice_green.rolled);
-              print(player_green_1.location);
-              print(player_green_1.position);
-              print(player_green_1.total_moved);
               dice_green.choosePlayer = false;
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_1.position != 0 && player_blue_1.position != 0 && player_green_1.total_moved != 0 && player_blue_1.total_moved != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1558,6 +1554,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -1579,7 +1576,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0 && player_green_1.total_moved != 0 && player_blue_2.total_moved != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1599,6 +1596,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -1620,7 +1618,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0 && player_green_1.total_moved != 0 && player_blue_3.total_moved != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1640,6 +1638,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -1661,7 +1660,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0 && player_green_1.total_moved != 0 && player_blue_4.total_moved != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1681,6 +1680,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -1713,8 +1713,8 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false) {
-                  if (player_green_1.save.contains(player_green_1.location) && player_green_1.position != 0 && player_blue_1.position != 0 && player_green_2.total_moved != 0 && player_blue_1.total_moved != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
+                  if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
                     player_green_1.blocked.add(player_green_1.location);
@@ -1733,6 +1733,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -1754,7 +1755,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0 && player_green_2.total_moved != 0 && player_blue_2.total_moved != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1774,6 +1775,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -1795,7 +1797,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0 && player_green_2.total_moved != 0 && player_blue_3.total_moved != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1815,6 +1817,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -1836,7 +1839,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0 && player_green_2.total_moved != 0 && player_blue_4.total_moved != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1856,6 +1859,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -1877,7 +1881,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_1.position != 0 && player_red_1.position != 0 && player_green_2.total_moved != 0 && player_red_1.total_moved != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1897,6 +1901,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -1918,7 +1923,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_1.position != 0 && player_red_2.position != 0 && player_green_2.total_moved != 0 && player_red_2.total_moved != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1938,6 +1943,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -1959,7 +1965,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_1.position != 0 && player_red_3.position != 0 && player_green_2.total_moved != 0 && player_red_3.total_moved != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -1979,6 +1985,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -2000,7 +2007,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_1.position != 0 && player_red_4.position != 0 && player_green_2.total_moved != 0 && player_red_4.total_moved != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2020,6 +2027,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -2054,7 +2062,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_1.position != 0 && player_blue_1.position != 0 && player_green_2.total_moved != 0 && player_blue_1.total_moved != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2074,6 +2082,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -2095,7 +2104,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_1.position != 0 && player_blue_2.position != 0 && player_green_2.total_moved != 0 && player_blue_2.total_moved != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2103,6 +2112,7 @@ class LangawGame extends Game {
 
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -2124,7 +2134,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_1.position != 0 && player_blue_3.position != 0 && player_green_2.total_moved != 0 && player_blue_3.total_moved != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2144,6 +2154,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -2165,7 +2176,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_blue_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_1.position != 0 && player_blue_4.position != 0 && player_green_2.total_moved != 0 && player_blue_4.total_moved != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2185,6 +2196,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -2206,7 +2218,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_green_1.position != 0 && player_yellow_1.position != 0 && player_green_2.total_moved != 0 && player_yellow_1.total_moved != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2226,6 +2238,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -2247,7 +2260,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_green_1.position != 0 && player_yellow_2.position != 0 && player_green_2.total_moved != 0 && player_yellow_2.total_moved != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2267,6 +2280,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -2288,7 +2302,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_green_1.position != 0 && player_yellow_3.position != 0 && player_green_2.total_moved != 0 && player_yellow_3.total_moved != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2308,6 +2322,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -2329,7 +2344,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_yellow_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_green_1.position != 0 && player_yellow_4.position != 0 && player_green_2.total_moved != 0 && player_yellow_4.total_moved != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2349,6 +2364,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -2370,7 +2386,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_1.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_1.position != 0 && player_red_1.position != 0 && player_green_2.total_moved != 0 && player_red_1.total_moved != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2390,6 +2406,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -2411,7 +2428,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_2.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_1.position != 0 && player_red_2.position != 0 && player_green_2.total_moved != 0 && player_red_2.total_moved != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2431,6 +2448,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -2452,7 +2470,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_3.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_1.position != 0 && player_red_3.position != 0 && player_green_2.total_moved != 0 && player_red_3.total_moved != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2472,6 +2490,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -2493,7 +2512,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_1.location == player_red_4.location &&
                     player_green_1.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_1.position != 0 && player_red_4.position != 0 && player_green_2.total_moved != 0 && player_red_4.total_moved != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_1.save.contains(player_green_1.location)) {
                     print("Save");
                     blocked.add(player_green_1.location);
@@ -2513,6 +2532,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -2567,7 +2587,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_2.location == player_blue_1.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_2.position != 0 && player_blue_1.position != 0 && player_green_2.total_moved != 0 && player_blue_1.total_moved != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2587,6 +2607,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -2608,7 +2629,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_2.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_2.position != 0 && player_blue_2.position != 0 && player_green_2.total_moved != 0 && player_blue_2.total_moved != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2628,6 +2649,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -2649,7 +2671,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_3.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_2.position != 0 && player_blue_3.position != 0 && player_green_2.total_moved != 0 && player_blue_3.total_moved != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2669,6 +2691,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -2690,7 +2713,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_4.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_2.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2710,6 +2733,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -2742,7 +2766,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_green_2.location == player_blue_1.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_2.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2762,6 +2786,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -2783,7 +2808,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_2.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_2.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2803,6 +2828,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -2824,7 +2850,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_3.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_2.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2844,6 +2870,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -2865,7 +2892,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_4.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_2.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2885,6 +2912,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -2906,7 +2934,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_1.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_2.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2926,6 +2954,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -2947,7 +2976,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_2.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_2.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -2967,6 +2996,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -2988,7 +3018,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_3.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_2.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3008,6 +3038,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -3029,7 +3060,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_4.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_2.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3049,6 +3080,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -3083,7 +3115,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_green_2.location == player_blue_1.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_2.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3103,6 +3135,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -3124,7 +3157,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_2.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_2.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3144,6 +3177,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -3165,7 +3199,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_3.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_2.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3185,6 +3219,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -3206,7 +3241,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_blue_4.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_2.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3226,6 +3261,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -3247,7 +3283,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_yellow_1.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_green_2.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3267,6 +3303,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -3288,7 +3325,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_yellow_2.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_green_2.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3308,6 +3345,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -3329,7 +3367,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_yellow_3.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_green_2.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3349,6 +3387,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -3370,7 +3409,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_yellow_4.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_green_2.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3390,6 +3429,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -3411,7 +3451,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_1.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_2.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3431,6 +3471,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -3452,7 +3493,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_2.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_2.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3472,6 +3513,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -3493,7 +3535,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_3.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_2.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3513,6 +3555,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -3534,7 +3577,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_2.location == player_red_4.location &&
                     player_green_2.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_2.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_2.save.contains(player_green_2.location)) {
                     print("Save");
                     blocked.add(player_green_2.location);
@@ -3554,6 +3597,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -3606,7 +3650,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_3.location == player_blue_1.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_3.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3626,6 +3670,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -3647,7 +3692,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_2.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_3.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3667,6 +3712,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -3688,7 +3734,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_3.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_3.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3708,6 +3754,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -3729,7 +3776,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_4.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_3.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3749,6 +3796,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -3781,7 +3829,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_green_3.location == player_blue_1.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_3.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3801,6 +3849,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -3822,7 +3871,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_2.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_3.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3842,6 +3891,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_1.dx;
@@ -3863,7 +3913,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_3.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_3.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3883,6 +3933,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -3904,7 +3955,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_4.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_3.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3924,6 +3975,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -3945,7 +3997,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_1.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_3.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -3965,6 +4017,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -3986,7 +4039,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_2.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_3.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4006,6 +4059,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -4027,7 +4081,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_3.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_3.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4047,6 +4101,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -4068,7 +4123,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_4.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_3.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4088,6 +4143,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -4122,7 +4178,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_green_3.location == player_blue_1.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_3.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4142,6 +4198,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -4163,7 +4220,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_2.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_3.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4183,6 +4240,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -4204,7 +4262,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_3.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_3.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4224,6 +4282,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -4245,7 +4304,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_blue_4.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_3.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4265,6 +4324,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -4286,7 +4346,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_yellow_1.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_green_3.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4306,6 +4366,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -4327,7 +4388,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_yellow_2.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_green_3.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4347,6 +4408,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -4368,7 +4430,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_yellow_3.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_green_3.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4388,6 +4450,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_2.dx;
@@ -4409,7 +4472,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_yellow_4.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_green_3.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4429,6 +4492,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -4450,7 +4514,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_1.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_3.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4470,6 +4534,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -4491,7 +4556,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_2.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_3.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4511,6 +4576,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -4532,7 +4598,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_3.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_3.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4552,6 +4618,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -4573,7 +4640,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_3.location == player_red_4.location &&
                     player_green_3.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_3.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_3.save.contains(player_green_3.location)) {
                     print("Save");
                     blocked.add(player_green_3.location);
@@ -4593,6 +4660,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -4645,7 +4713,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_4.location == player_blue_1.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_4.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4665,6 +4733,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -4686,7 +4755,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_2.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_4.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4706,6 +4775,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -4727,7 +4797,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_3.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_4.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4747,6 +4817,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -4768,7 +4839,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_4.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_4.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4788,6 +4859,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -4820,7 +4892,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_green_4.location == player_blue_1.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_4.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4840,6 +4912,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -4861,7 +4934,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_2.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_4.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4881,6 +4954,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -4902,7 +4976,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_3.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_4.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4922,6 +4996,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -4943,7 +5018,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_4.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_4.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -4963,6 +5038,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -4984,7 +5060,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_1.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_4.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5004,6 +5080,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -5025,7 +5102,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_2.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_4.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5045,6 +5122,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -5066,7 +5144,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_3.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_4.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5086,6 +5164,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -5107,7 +5186,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_4.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_4.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5127,6 +5206,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -5161,7 +5241,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_green_4.location == player_blue_1.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_green_4.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5181,6 +5261,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -5202,7 +5283,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_2.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_green_4.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5222,6 +5303,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -5243,7 +5325,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_3.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_green_4.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5263,6 +5345,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -5284,7 +5367,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_blue_4.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_green_4.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5304,6 +5387,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -5325,7 +5409,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_yellow_1.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_green_4.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5345,6 +5429,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -5366,7 +5451,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_yellow_2.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_green_4.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5386,6 +5471,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -5407,7 +5493,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_yellow_3.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_green_4.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5427,6 +5513,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -5448,7 +5535,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_yellow_4.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_green_4.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5468,6 +5555,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -5489,7 +5577,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_1.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_green_4.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5509,6 +5597,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -5530,7 +5619,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_2.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_green_4.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5550,6 +5639,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_4.dx;
@@ -5571,7 +5661,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_3.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_green_4.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5591,6 +5681,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -5612,7 +5703,7 @@ class LangawGame extends Game {
                 }
                 else if (player_green_4.location == player_red_4.location &&
                     player_green_4.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_green_4.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_green_4.save.contains(player_green_4.location)) {
                     print("Save");
                     blocked.add(player_green_4.location);
@@ -5632,6 +5723,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -5686,7 +5778,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_1.location == player_blue_1.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_yellow_1.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5706,6 +5798,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -5727,7 +5820,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_blue_2.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_yellow_1.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5747,6 +5840,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -5768,7 +5862,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_blue_3.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_yellow_1.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5788,6 +5882,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -5809,7 +5904,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_blue_4.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_yellow_1.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5829,6 +5924,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -5850,7 +5946,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_green_1.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_yellow_1.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5870,6 +5966,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -5891,7 +5988,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_green_2.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_yellow_1.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5911,6 +6008,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -5932,7 +6030,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_green_3.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_yellow_1.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5952,6 +6050,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -5973,7 +6072,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_green_4.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_yellow_1.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -5993,6 +6092,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -6014,7 +6114,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_red_1.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_yellow_1.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -6034,6 +6134,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -6055,7 +6156,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_red_2.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_yellow_1.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -6075,6 +6176,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -6096,7 +6198,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_red_3.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_yellow_1.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -6116,6 +6218,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -6137,7 +6240,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_1.location == player_red_4.location &&
                     player_yellow_1.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_yellow_1.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_yellow_1.save.contains(player_yellow_1.location)) {
                     print("Save");
                     blocked.add(player_yellow_1.location);
@@ -6157,6 +6260,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -6209,7 +6313,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_2.location == player_blue_1.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_yellow_2.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6229,6 +6333,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -6250,7 +6355,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_blue_2.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_yellow_2.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6270,6 +6375,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -6291,7 +6397,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_blue_3.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_yellow_2.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6311,6 +6417,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -6332,7 +6439,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_blue_4.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_yellow_2.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6352,6 +6459,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -6373,7 +6481,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_green_1.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_yellow_2.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6393,6 +6501,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -6414,7 +6523,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_green_2.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_yellow_2.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6434,6 +6543,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -6455,7 +6565,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_green_3.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_yellow_2.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6475,6 +6585,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -6496,7 +6607,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_green_4.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_yellow_2.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6516,6 +6627,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -6537,7 +6649,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_red_1.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_yellow_2.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6557,6 +6669,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -6578,7 +6691,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_red_2.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_yellow_2.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6598,6 +6711,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -6619,7 +6733,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_red_3.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_yellow_2.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6639,6 +6753,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -6660,7 +6775,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_2.location == player_red_4.location &&
                     player_yellow_2.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_yellow_2.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_yellow_2.save.contains(player_yellow_2.location)) {
                     print("Save");
                     blocked.add(player_yellow_2.location);
@@ -6680,6 +6795,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -6732,48 +6848,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_3.location == player_blue_1.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_yellow_3.position != 0 && player_blue_1.position != 0) {
-                if (player_yellow_3.save.contains(player_yellow_3.location)) {
-                print("Save");
-                blocked.add(player_yellow_3.location);
-                player_yellow_3.blocked.add(player_yellow_3.location);
-                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
-                dice_green.isTurn = false;
-                dice_yellow.isTurn = true;
-                dice_red.isTurn = false;
-                dice_blue.isTurn = false;
-                yellow_six_counter += 1;
-                } else {
-                dice_green.isTurn = false;
-                dice_yellow.isTurn = false;
-                dice_red.isTurn = false;
-                dice_blue.isTurn = true;
-                yellow_six_counter = 0;
-                }
-                } else {
-                print("Not");
-                player_blue_1.location = 27;
-                player_blue_1.position = 0;
-                player_blue_1.x = blue_home_1.dx;
-                player_blue_1.y = blue_home_1.dy;
-                player_blue_1.playerRect = Rect.fromLTWH(
-                player_blue_1.x, player_blue_1.y, raintileSize,
-                raintileSize);
-                player_blue_1.total_moved = 1;
-                player_blue_1.counter = 0;
-                player_blue_1.rolled = 0;
-                player_blue_1.dicerolled = false;
-                dice_yellow.isTurn = true;
-                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
-                yellow_six_counter += 1;
-                } else {
-                yellow_six_counter = 0;
-                }
-                }
-                }
-                else if (player_yellow_3.location == player_blue_2.location &&
-                player_yellow_3.inHomeStrip == false &&
-                player_blue_2.inHomeStrip == false && player_yellow_3.position != 0 && player_blue_2.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -6793,6 +6868,49 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
+                    player_blue_1.location = 27;
+                    player_blue_1.position = 0;
+                    player_blue_1.x = blue_home_1.dx;
+                    player_blue_1.y = blue_home_1.dy;
+                    player_blue_1.playerRect = Rect.fromLTWH(
+                        player_blue_1.x, player_blue_1.y, raintileSize,
+                        raintileSize);
+                    player_blue_1.total_moved = 1;
+                    player_blue_1.counter = 0;
+                    player_blue_1.rolled = 0;
+                    player_blue_1.dicerolled = false;
+                    dice_yellow.isTurn = true;
+                    if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                      yellow_six_counter += 1;
+                    } else {
+                      yellow_six_counter = 0;
+                    }
+                  }
+                }
+                else if (player_yellow_3.location == player_blue_2.location &&
+                    player_yellow_3.inHomeStrip == false &&
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
+                  if (player_yellow_3.save.contains(player_yellow_3.location)) {
+                    print("Save");
+                    blocked.add(player_yellow_3.location);
+                    player_yellow_3.blocked.add(player_yellow_3.location);
+                    if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                      dice_green.isTurn = false;
+                      dice_yellow.isTurn = true;
+                      dice_red.isTurn = false;
+                      dice_blue.isTurn = false;
+                      yellow_six_counter += 1;
+                    } else {
+                      dice_green.isTurn = false;
+                      dice_yellow.isTurn = false;
+                      dice_red.isTurn = false;
+                      dice_blue.isTurn = true;
+                      yellow_six_counter = 0;
+                    }
+                  } else {
+                    print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -6814,7 +6932,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_blue_3.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_yellow_2.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -6834,6 +6952,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -6855,7 +6974,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_blue_4.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_yellow_3.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -6875,6 +6994,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -6896,7 +7016,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_green_1.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_yellow_3.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -6916,6 +7036,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -6937,7 +7058,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_green_2.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_yellow_3.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -6957,6 +7078,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -6978,7 +7100,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_green_3.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_yellow_3.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -6998,6 +7120,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -7019,7 +7142,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_green_4.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_yellow_3.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -7039,6 +7162,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -7060,7 +7184,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_red_1.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_yellow_3.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -7080,6 +7204,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -7101,7 +7226,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_red_2.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_yellow_3.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -7121,6 +7246,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -7142,7 +7268,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_red_3.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_yellow_3.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -7162,6 +7288,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -7183,7 +7310,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_3.location == player_red_4.location &&
                     player_yellow_3.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_yellow_3.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_yellow_3.save.contains(player_yellow_3.location)) {
                     print("Save");
                     blocked.add(player_yellow_3.location);
@@ -7203,6 +7330,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -7255,7 +7383,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_4.location == player_blue_1.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7275,6 +7403,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -7296,7 +7425,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_blue_2.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7316,6 +7445,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -7337,7 +7467,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_blue_3.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7357,6 +7487,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -7378,7 +7509,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_blue_4.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7398,6 +7529,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -7419,7 +7551,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_green_1.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_yellow_4.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7439,6 +7571,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -7460,7 +7593,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_green_2.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_yellow_4.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7480,6 +7613,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -7501,7 +7635,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_green_3.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_yellow_4.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7521,6 +7655,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -7542,7 +7677,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_green_4.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_yellow_4.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7562,6 +7697,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -7583,7 +7719,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_red_1.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_yellow_4.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7603,6 +7739,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -7624,7 +7761,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_red_2.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_yellow_4.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7644,6 +7781,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -7665,7 +7803,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_red_3.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_yellow_4.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7685,6 +7823,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -7706,7 +7845,7 @@ class LangawGame extends Game {
                 }
                 else if (player_yellow_4.location == player_red_4.location &&
                     player_yellow_4.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_yellow_4.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if (player_yellow_4.save.contains(player_yellow_4.location)) {
                     print("Save");
                     blocked.add(player_yellow_4.location);
@@ -7726,6 +7865,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -7780,7 +7920,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.threePlayer) {
                 if (player_red_1.location == player_blue_1.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -7800,6 +7940,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -7821,7 +7962,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_blue_2.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -7841,6 +7982,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -7862,7 +8004,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_blue_3.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -7882,6 +8024,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -7903,7 +8046,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_blue_4.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_yellow_4.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -7923,6 +8066,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -7944,7 +8088,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_1.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_1.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -7964,6 +8108,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -7985,7 +8130,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_2.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_1.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8005,6 +8150,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -8026,7 +8172,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_3.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_1.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8046,6 +8192,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -8067,7 +8214,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_4.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_1.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8087,6 +8234,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -8121,7 +8269,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_red_1.location == player_blue_1.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_red_1.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8141,6 +8289,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -8162,7 +8311,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_blue_2.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_red_1.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8182,6 +8331,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -8203,7 +8353,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_blue_3.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_red_1.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8223,6 +8373,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -8244,7 +8395,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_blue_4.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_red_1.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8264,6 +8415,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -8285,7 +8437,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_1.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_1.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8305,6 +8457,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -8326,7 +8479,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_2.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_1.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8346,6 +8499,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -8367,7 +8521,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_3.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_1.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8387,6 +8541,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -8408,7 +8563,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_green_4.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_1.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8428,6 +8583,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -8449,7 +8605,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_yellow_1.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_red_1.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8469,6 +8625,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -8490,7 +8647,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_yellow_2.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_red_1.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8510,6 +8667,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -8531,7 +8689,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_yellow_3.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_red_1.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8551,6 +8709,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -8572,7 +8731,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_1.location == player_yellow_4.location &&
                     player_red_1.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_red_1.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_red_1.save.contains(player_red_1.location)) {
                     print("Save");
                     blocked.add(player_red_1.location);
@@ -8592,6 +8751,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -8645,7 +8805,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.threePlayer) {
                 if (player_red_2.location == player_blue_1.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_red_2.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8665,6 +8825,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -8686,7 +8847,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_blue_2.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_red_2.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8706,6 +8867,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -8727,7 +8889,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_blue_3.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_red_2.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8747,6 +8909,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -8768,7 +8931,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_blue_4.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_red_2.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8788,6 +8951,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -8809,7 +8973,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_1.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_2.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8829,6 +8993,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -8850,7 +9015,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_2.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_2.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8870,6 +9035,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -8891,7 +9057,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_3.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_2.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8911,6 +9077,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -8932,7 +9099,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_4.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_2.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -8952,6 +9119,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -8986,7 +9154,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_red_2.location == player_blue_1.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_red_2.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9006,6 +9174,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -9027,7 +9196,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_blue_2.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_red_2.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9047,6 +9216,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -9068,7 +9238,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_blue_3.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_red_2.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9088,6 +9258,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -9109,7 +9280,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_blue_4.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_red_2.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9129,6 +9300,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -9150,7 +9322,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_1.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_2.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9170,6 +9342,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -9191,7 +9364,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_2.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_2.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9211,6 +9384,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -9232,7 +9406,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_3.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_2.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9252,6 +9426,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -9273,7 +9448,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_green_4.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_2.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9293,6 +9468,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -9314,7 +9490,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_yellow_1.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_red_2.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9334,6 +9510,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -9355,7 +9532,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_yellow_2.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_red_2.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9375,6 +9552,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -9396,7 +9574,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_yellow_3.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_red_2.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9416,6 +9594,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -9437,7 +9616,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_2.location == player_yellow_4.location &&
                     player_red_2.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_red_2.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_red_2.save.contains(player_red_2.location)) {
                     print("Save");
                     blocked.add(player_red_2.location);
@@ -9457,6 +9636,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -9509,7 +9689,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.threePlayer) {
                 if (player_red_3.location == player_blue_1.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_red_3.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9529,6 +9709,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -9550,7 +9731,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_blue_2.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_red_3.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9570,6 +9751,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -9591,7 +9773,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_blue_3.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_red_3.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9611,6 +9793,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -9632,7 +9815,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_blue_4.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_red_3.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9652,6 +9835,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -9673,7 +9857,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_1.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_3.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9693,6 +9877,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -9714,7 +9899,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_2.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_3.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9734,6 +9919,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -9755,7 +9941,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_3.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_3.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9775,6 +9961,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -9796,7 +9983,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_4.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_3.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9816,6 +10003,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -9850,7 +10038,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_red_3.location == player_blue_1.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_red_3.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9870,6 +10058,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -9891,7 +10080,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_blue_2.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_red_3.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9911,6 +10100,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -9932,7 +10122,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_blue_3.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_red_3.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9952,6 +10142,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -9973,7 +10164,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_blue_4.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_red_3.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -9993,6 +10184,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -10014,7 +10206,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_1.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_3.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10034,6 +10226,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -10055,7 +10248,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_2.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_3.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10075,6 +10268,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -10096,7 +10290,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_3.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_3.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10116,6 +10310,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -10137,7 +10332,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_green_4.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_3.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10157,6 +10352,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -10178,7 +10374,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_yellow_1.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_red_3.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10198,6 +10394,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -10219,7 +10416,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_yellow_2.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_red_3.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10239,6 +10436,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -10260,7 +10458,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_yellow_3.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_red_3.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10280,6 +10478,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -10301,7 +10500,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_3.location == player_yellow_4.location &&
                     player_red_3.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_red_3.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_red_3.save.contains(player_red_3.location)) {
                     print("Save");
                     blocked.add(player_red_3.location);
@@ -10321,6 +10520,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -10373,7 +10573,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.threePlayer) {
                 if (player_red_4.location == player_blue_1.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_red_4.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10393,6 +10593,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -10414,7 +10615,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_blue_2.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_red_4.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10434,6 +10635,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -10455,7 +10657,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_blue_3.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_red_4.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10475,6 +10677,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -10496,7 +10699,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_blue_4.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_red_4.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10516,6 +10719,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -10537,7 +10741,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_1.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_4.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10557,6 +10761,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -10578,7 +10783,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_2.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_4.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10598,6 +10803,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -10619,7 +10825,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_3.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_4.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10639,6 +10845,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -10660,7 +10867,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_4.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_4.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10680,6 +10887,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -10714,7 +10922,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_red_4.location == player_blue_1.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_1.inHomeStrip == false && player_red_4.position != 0 && player_blue_1.position != 0) {
+                    player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10734,6 +10942,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_1.isOut = false;
                     player_blue_1.location = 27;
                     player_blue_1.position = 0;
                     player_blue_1.x = blue_home_1.dx;
@@ -10755,7 +10964,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_blue_2.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_2.inHomeStrip == false && player_red_4.position != 0 && player_blue_2.position != 0) {
+                    player_blue_2.inHomeStrip == false && player_blue_2.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10775,6 +10984,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_2.isOut = false;
                     player_blue_2.location = 27;
                     player_blue_2.position = 0;
                     player_blue_2.x = blue_home_2.dx;
@@ -10796,7 +11006,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_blue_3.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_3.inHomeStrip == false && player_red_4.position != 0 && player_blue_3.position != 0) {
+                    player_blue_3.inHomeStrip == false && player_blue_3.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10816,6 +11026,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_3.isOut = false;
                     player_blue_3.location = 27;
                     player_blue_3.position = 0;
                     player_blue_3.x = blue_home_3.dx;
@@ -10837,7 +11048,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_blue_4.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_blue_4.inHomeStrip == false && player_red_4.position != 0 && player_blue_4.position != 0) {
+                    player_blue_4.inHomeStrip == false && player_blue_4.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10857,6 +11068,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_blue_4.isOut = false;
                     player_blue_4.location = 27;
                     player_blue_4.position = 0;
                     player_blue_4.x = blue_home_4.dx;
@@ -10878,7 +11090,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_1.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_red_4.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10898,6 +11110,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -10919,7 +11132,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_2.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_red_4.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10939,6 +11152,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -10960,7 +11174,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_3.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_red_4.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -10980,6 +11194,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -11001,7 +11216,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_green_4.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_red_4.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -11021,6 +11236,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -11042,7 +11258,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_yellow_1.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_red_4.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -11062,6 +11278,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -11083,7 +11300,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_yellow_2.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_red_4.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -11103,6 +11320,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_2.dx;
@@ -11124,7 +11342,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_yellow_3.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_red_4.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -11144,6 +11362,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -11165,7 +11384,7 @@ class LangawGame extends Game {
                 }
                 else if (player_red_4.location == player_yellow_4.location &&
                     player_red_4.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_red_4.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if (player_red_4.save.contains(player_red_4.location)) {
                     print("Save");
                     blocked.add(player_red_4.location);
@@ -11185,6 +11404,7 @@ class LangawGame extends Game {
                     }
                   } else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -11240,7 +11460,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_1.location == player_green_1.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_1.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11260,6 +11480,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -11279,7 +11500,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_2.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_1.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11299,6 +11520,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -11318,7 +11540,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_3.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_1.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11338,6 +11560,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -11357,7 +11580,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_4.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_1.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11377,6 +11600,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -11407,7 +11631,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_blue_1.location == player_red_1.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_1.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11427,6 +11651,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -11446,7 +11671,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_red_2.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_1.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11466,6 +11691,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -11485,7 +11711,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_red_3.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_1.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11505,6 +11731,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -11524,7 +11751,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_red_4.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_1.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11544,6 +11771,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -11563,7 +11791,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_1.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_1.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11583,6 +11811,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -11602,7 +11831,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_2.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_1.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11622,6 +11851,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -11641,7 +11871,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_3.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_1.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11661,6 +11891,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -11680,7 +11911,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_4.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_1.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11700,6 +11931,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -11732,7 +11964,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_blue_1.location == player_red_1.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_1.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11752,6 +11984,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -11771,7 +12004,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_red_2.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_1.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11791,6 +12024,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -11810,7 +12044,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_red_3.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_1.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11830,6 +12064,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -11849,7 +12084,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_red_4.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_1.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11869,6 +12104,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -11888,7 +12124,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_1.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_1.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11908,6 +12144,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -11927,7 +12164,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_2.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_1.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11947,6 +12184,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -11966,7 +12204,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_3.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_1.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -11986,6 +12224,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -12005,7 +12244,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_green_4.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_1.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -12025,6 +12264,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -12044,7 +12284,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_yellow_1.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_blue_1.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -12064,6 +12304,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -12083,7 +12324,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_yellow_2.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_blue_1.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -12103,6 +12344,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_1.dx;
@@ -12122,7 +12364,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_yellow_3.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_blue_1.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -12142,6 +12384,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -12161,7 +12404,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_1.location == player_yellow_4.location &&
                     player_blue_1.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_blue_1.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if(player_blue_1.save.contains(player_blue_1.location)){
                     print("Save");
                     blocked.add(player_blue_1.location);
@@ -12181,6 +12424,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -12231,7 +12475,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_2.location == player_green_1.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_2.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12251,6 +12495,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -12270,7 +12515,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_2.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_2.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12290,6 +12535,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -12309,7 +12555,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_3.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_2.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12329,6 +12575,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -12348,7 +12595,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_4.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_2.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12368,6 +12615,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -12398,7 +12646,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_blue_2.location == player_red_1.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_2.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12418,6 +12666,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -12437,7 +12686,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_red_2.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_2.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12457,6 +12706,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -12476,7 +12726,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_red_3.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_2.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12496,6 +12746,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -12515,7 +12766,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_red_4.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_2.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12535,6 +12786,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -12554,7 +12806,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_1.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_2.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12574,6 +12826,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -12593,7 +12846,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_2.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_2.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12613,6 +12866,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -12632,7 +12886,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_3.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_2.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12652,6 +12906,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -12671,7 +12926,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_4.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_2.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12691,6 +12946,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -12723,7 +12979,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_blue_2.location == player_red_1.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_2.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12743,6 +12999,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -12762,7 +13019,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_red_2.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_2.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12782,6 +13039,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -12801,7 +13059,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_red_3.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_2.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12821,6 +13079,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -12840,7 +13099,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_red_4.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_2.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12860,6 +13119,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -12879,7 +13139,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_1.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_2.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12899,6 +13159,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -12918,7 +13179,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_2.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_2.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12938,6 +13199,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -12957,7 +13219,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_3.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_2.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -12977,6 +13239,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -12996,7 +13259,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_green_4.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_2.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -13016,6 +13279,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -13035,7 +13299,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_yellow_1.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_blue_2.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -13055,6 +13319,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -13074,7 +13339,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_yellow_2.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_blue_2.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -13094,6 +13359,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_1.dx;
@@ -13113,7 +13379,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_yellow_3.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_blue_2.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -13133,6 +13399,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -13152,7 +13419,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_2.location == player_yellow_4.location &&
                     player_blue_2.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_blue_2.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if(player_blue_2.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_2.location);
@@ -13172,6 +13439,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -13222,7 +13490,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_3.location == player_green_1.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_3.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13242,6 +13510,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -13261,7 +13530,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_2.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_3.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13281,6 +13550,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -13300,7 +13570,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_3.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_3.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13320,6 +13590,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -13339,7 +13610,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_4.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_3.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13359,6 +13630,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -13389,7 +13661,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_blue_3.location == player_red_1.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_3.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13409,6 +13681,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -13428,7 +13701,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_red_2.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_3.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13448,6 +13721,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -13467,7 +13741,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_red_3.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_3.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_2.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13487,6 +13761,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -13506,7 +13781,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_red_4.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_3.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13526,6 +13801,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -13545,7 +13821,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_1.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_3.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13565,6 +13841,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -13584,7 +13861,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_2.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_3.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13604,6 +13881,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -13623,7 +13901,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_3.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_3.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13643,6 +13921,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -13662,7 +13941,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_4.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_3.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13682,6 +13961,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -13714,7 +13994,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_blue_3.location == player_red_1.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_3.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13734,6 +14014,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -13753,7 +14034,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_red_2.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_3.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13773,6 +14054,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -13792,7 +14074,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_red_3.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_3.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13812,6 +14094,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -13831,7 +14114,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_red_4.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_3.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13851,6 +14134,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -13870,7 +14154,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_1.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_3.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13890,6 +14174,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -13909,7 +14194,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_2.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_3.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13929,6 +14214,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -13948,7 +14234,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_3.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_3.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -13968,6 +14254,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -13987,7 +14274,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_green_4.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_3.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -14007,6 +14294,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -14026,7 +14314,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_yellow_1.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_blue_3.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -14046,6 +14334,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -14065,7 +14354,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_yellow_2.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_blue_3.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -14085,6 +14374,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_1.dx;
@@ -14104,7 +14394,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_yellow_3.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_blue_3.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -14124,6 +14414,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -14143,7 +14434,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_3.location == player_yellow_4.location &&
                     player_blue_3.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_blue_3.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if(player_blue_3.save.contains(player_blue_3.location)){
                     print("Save");
                     blocked.add(player_blue_3.location);
@@ -14163,6 +14454,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
@@ -14213,7 +14505,7 @@ class LangawGame extends Game {
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_4.location == player_green_1.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_4.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14233,6 +14525,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -14252,7 +14545,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_2.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_4.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14272,6 +14565,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -14291,7 +14585,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_3.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_4.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14311,6 +14605,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -14330,7 +14625,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_4.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_4.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14350,6 +14645,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -14380,7 +14676,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.threePlayer) {
                 if (player_blue_4.location == player_red_1.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_4.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14400,6 +14696,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -14419,7 +14716,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_red_2.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_4.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14439,6 +14736,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -14458,7 +14756,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_red_3.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_4.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14478,6 +14776,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -14497,7 +14796,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_red_4.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_4.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14517,6 +14816,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -14536,7 +14836,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_1.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_4.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14556,6 +14856,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -14575,7 +14876,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_2.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_4.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14595,6 +14896,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -14614,7 +14916,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_3.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_4.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14634,6 +14936,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -14653,7 +14956,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_4.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_4.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14673,6 +14976,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -14705,7 +15009,7 @@ class LangawGame extends Game {
               else if (activeMode == Mode.fourPlayer) {
                 if (player_blue_4.location == player_red_1.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_1.inHomeStrip == false && player_blue_4.position != 0 && player_red_1.position != 0) {
+                    player_red_1.inHomeStrip == false && player_red_1.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14725,6 +15029,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_1.isOut = false;
                     player_red_1.location = 40;
                     player_red_1.position = 0;
                     player_red_1.x = red_home_1.dx;
@@ -14744,7 +15049,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_red_2.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_2.inHomeStrip == false && player_blue_4.position != 0 && player_red_2.position != 0) {
+                    player_red_2.inHomeStrip == false && player_red_2.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14764,6 +15069,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_2.isOut = false;
                     player_red_2.location = 40;
                     player_red_2.position = 0;
                     player_red_2.x = red_home_2.dx;
@@ -14783,7 +15089,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_red_3.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_3.inHomeStrip == false && player_blue_4.position != 0 && player_red_3.position != 0) {
+                    player_red_3.inHomeStrip == false && player_red_3.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14803,6 +15109,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_3.isOut = false;
                     player_red_3.location = 40;
                     player_red_3.position = 0;
                     player_red_3.x = red_home_3.dx;
@@ -14822,7 +15129,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_red_4.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_red_4.inHomeStrip == false && player_blue_4.position != 0 && player_red_4.position != 0) {
+                    player_red_4.inHomeStrip == false && player_red_4.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14842,6 +15149,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_red_4.isOut = false;
                     player_red_4.location = 40;
                     player_red_4.position = 0;
                     player_red_4.x = red_home_4.dx;
@@ -14861,7 +15169,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_1.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_1.inHomeStrip == false && player_blue_4.position != 0 && player_green_1.position != 0) {
+                    player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14881,6 +15189,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_1.isOut = false;
                     player_green_1.location = 1;
                     player_green_1.position = 0;
                     player_green_1.x = green_home_1.dx;
@@ -14900,7 +15209,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_2.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_2.inHomeStrip == false && player_blue_4.position != 0 && player_green_2.position != 0) {
+                    player_green_2.inHomeStrip == false && player_green_2.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14920,6 +15229,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_2.isOut = false;
                     player_green_2.location = 1;
                     player_green_2.position = 0;
                     player_green_2.x = green_home_2.dx;
@@ -14939,7 +15249,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_3.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_3.inHomeStrip == false && player_blue_4.position != 0 && player_green_3.position != 0) {
+                    player_green_3.inHomeStrip == false && player_green_3.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14959,6 +15269,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_3.isOut = false;
                     player_green_3.location = 1;
                     player_green_3.position = 0;
                     player_green_3.x = green_home_3.dx;
@@ -14978,7 +15289,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_green_4.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_green_4.inHomeStrip == false && player_blue_4.position != 0 && player_green_4.position != 0) {
+                    player_green_4.inHomeStrip == false && player_green_4.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -14998,6 +15309,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_green_4.isOut = false;
                     player_green_4.location = 1;
                     player_green_4.position = 0;
                     player_green_4.x = green_home_4.dx;
@@ -15017,7 +15329,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_yellow_1.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_yellow_1.inHomeStrip == false && player_blue_4.position != 0 && player_yellow_1.position != 0) {
+                    player_yellow_1.inHomeStrip == false && player_yellow_1.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -15037,6 +15349,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_1.isOut = false;
                     player_yellow_1.location = 14;
                     player_yellow_1.position = 0;
                     player_yellow_1.x = yellow_home_1.dx;
@@ -15056,7 +15369,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_yellow_2.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_yellow_2.inHomeStrip == false && player_blue_4.position != 0 && player_yellow_2.position != 0) {
+                    player_yellow_2.inHomeStrip == false && player_yellow_2.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -15076,6 +15389,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_2.isOut = false;
                     player_yellow_2.location = 14;
                     player_yellow_2.position = 0;
                     player_yellow_2.x = yellow_home_1.dx;
@@ -15095,7 +15409,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_yellow_3.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_yellow_3.inHomeStrip == false && player_blue_4.position != 0 && player_yellow_3.position != 0) {
+                    player_yellow_3.inHomeStrip == false && player_yellow_3.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -15115,6 +15429,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_3.isOut = false;
                     player_yellow_3.location = 14;
                     player_yellow_3.position = 0;
                     player_yellow_3.x = yellow_home_3.dx;
@@ -15134,7 +15449,7 @@ class LangawGame extends Game {
                 }
                 else if (player_blue_4.location == player_yellow_4.location &&
                     player_blue_4.inHomeStrip == false &&
-                    player_yellow_4.inHomeStrip == false && player_blue_4.position != 0 && player_yellow_4.position != 0) {
+                    player_yellow_4.inHomeStrip == false && player_yellow_4.isOut == true) {
                   if(player_blue_4.save.contains(player_blue_4.location)){
                     print("Save");
                     blocked.add(player_blue_4.location);
@@ -15154,6 +15469,7 @@ class LangawGame extends Game {
                     }
                   }else {
                     print("Not");
+                    player_yellow_4.isOut = false;
                     player_yellow_4.location = 14;
                     player_yellow_4.position = 0;
                     player_yellow_4.x = yellow_home_4.dx;
