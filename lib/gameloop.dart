@@ -1150,19 +1150,46 @@ class LangawGame extends Game {
         player_green_4.dicerolled = false;
         dice_green.choosePlayer = false;
         if(activeMode == Mode.twoPlayer) {
-          dice_green.isTurn = false;
-          dice_blue.isTurn = true;
+          if (dice_green.rolled == 6 && green_six_counter <= 1) {
+            dice_green.isTurn = true;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = false;
+            green_six_counter += 1;
+          } else {
+            dice_green.isTurn = false;
+            dice_blue.isTurn = true;
+            green_six_counter = 0;
+          }
         }
         else if(activeMode == Mode.threePlayer) {
-          dice_green.isTurn = false;
-          dice_red.isTurn = false;
-          dice_blue.isTurn = true;
+          if (dice_green.rolled == 6 && green_six_counter <= 1) {
+            dice_green.isTurn = true;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = false;
+            green_six_counter += 1;
+          } else {
+            dice_green.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = true;
+            green_six_counter = 0;
+          }
         }
         else if(activeMode == Mode.fourPlayer) {
-          dice_green.isTurn = false;
-          dice_yellow.isTurn = true;
-          dice_red.isTurn = false;
-          dice_blue.isTurn = false;
+          if (dice_green.rolled == 6 && green_six_counter <= 1) {
+            dice_green.isTurn = true;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = false;
+            green_six_counter += 1;
+          } else {
+            dice_green.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = false;
+            dice_yellow.isTurn = true;
+            green_six_counter = 0;
+          }
         }
       }
     }
@@ -1178,10 +1205,19 @@ class LangawGame extends Game {
         player_yellow_3.dicerolled = false;
         player_yellow_4.dicerolled = false;
         dice_yellow.choosePlayer = false;
-        dice_green.isTurn = false;
-        dice_yellow.isTurn = false;
-        dice_red.isTurn = false;
-        dice_blue.isTurn = true;
+        if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+          dice_green.isTurn = false;
+          dice_yellow.isTurn = true;
+          dice_red.isTurn = false;
+          dice_blue.isTurn = false;
+          yellow_six_counter += 1;
+        } else {
+          dice_green.isTurn = false;
+          dice_yellow.isTurn = false;
+          dice_red.isTurn = false;
+          dice_blue.isTurn = true;
+          yellow_six_counter = 0;
+        }
       }
     }
 
@@ -1197,15 +1233,34 @@ class LangawGame extends Game {
         player_red_4.dicerolled = false;
         dice_red.choosePlayer = false;
         if(activeMode == Mode.threePlayer) {
-          dice_green.isTurn = true;
-          dice_red.isTurn = false;
-          dice_blue.isTurn = false;
+          if (dice_red.rolled == 6 && red_six_counter <= 1) {
+            dice_green.isTurn = false;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = true;
+            dice_blue.isTurn = false;
+            red_six_counter += 1;
+          } else {
+            dice_green.isTurn = true;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = false;
+            dice_yellow.isTurn = false;
+            red_six_counter = 0;
+          }
         }
         else if(activeMode == Mode.fourPlayer) {
-          dice_green.isTurn = true;
-          dice_yellow.isTurn = false;
-          dice_red.isTurn = false;
-          dice_blue.isTurn = false;
+          if (dice_red.rolled == 6 && red_six_counter <= 1) {
+            dice_green.isTurn = false;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = true;
+            dice_blue.isTurn = false;
+            red_six_counter += 1;
+          } else {
+            dice_green.isTurn = true;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = false;
+            dice_yellow.isTurn = false;
+            red_six_counter = 0;
+          }
         }
       }
     }
@@ -1222,19 +1277,49 @@ class LangawGame extends Game {
         player_blue_4.dicerolled = false;
         dice_blue.choosePlayer = false;
         if(activeMode == Mode.twoPlayer) {
-          dice_green.isTurn = true;
-          dice_blue.isTurn = false;
+          if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+            dice_green.isTurn = false;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = true;
+            blue_six_counter += 1;
+          } else {
+            dice_green.isTurn = true;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = false;
+            dice_yellow.isTurn = false;
+            blue_six_counter = 0;
+          }
         }
         else if(activeMode == Mode.threePlayer) {
-          dice_green.isTurn = false;
-          dice_red.isTurn = true;
-          dice_blue.isTurn = false;
+          if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+            dice_green.isTurn = false;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = true;
+            blue_six_counter += 1;
+          } else {
+            dice_green.isTurn = false;
+            dice_red.isTurn = true;
+            dice_blue.isTurn = false;
+            dice_yellow.isTurn = false;
+            blue_six_counter = 0;
+          }
         }
         else if(activeMode == Mode.fourPlayer) {
-          dice_green.isTurn = false;
-          dice_yellow.isTurn = false;
-          dice_red.isTurn = true;
-          dice_blue.isTurn = false;
+          if (dice_blue.rolled == 6 && red_six_counter <= 1) {
+            dice_green.isTurn = false;
+            dice_yellow.isTurn = false;
+            dice_red.isTurn = false;
+            dice_blue.isTurn = true;
+            red_six_counter += 1;
+          } else {
+            dice_green.isTurn = false;
+            dice_red.isTurn = true;
+            dice_blue.isTurn = false;
+            dice_yellow.isTurn = false;
+            red_six_counter = 0;
+          }
         }
       }
     }
@@ -1531,6 +1616,109 @@ class LangawGame extends Game {
               }
               player_green_1.roll(dice_green.rolled);
               dice_green.choosePlayer = false;
+
+              if (player_green_1.location == player_green_2.location && player_green_2.isOut == true) {
+                print("Save");
+                blocked.add(player_green_1.location);
+                player_green_1.blocked.add(player_green_1.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_1.location == player_green_3.location && player_green_3.isOut == true) {
+                print("Save");
+                blocked.add(player_green_1.location);
+                player_green_1.blocked.add(player_green_1.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_1.location == player_green_4.location && player_green_4.isOut == true) {
+                print("Save");
+                blocked.add(player_green_1.location);
+                player_green_1.blocked.add(player_green_1.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
@@ -2584,6 +2772,108 @@ class LangawGame extends Game {
               }
               player_green_2.roll(dice_green.rolled);
               dice_green.choosePlayer = false;
+              if (player_green_2.location == player_green_1.location && player_green_1.isOut == true) {
+                print("Save");
+                blocked.add(player_green_2.location);
+                player_green_2.blocked.add(player_green_2.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_2.location == player_green_3.location && player_green_3.isOut == true) {
+                print("Save");
+                blocked.add(player_green_2.location);
+                player_green_2.blocked.add(player_green_2.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_2.location == player_green_4.location && player_green_4.isOut == true) {
+                print("Save");
+                blocked.add(player_green_2.location);
+                player_green_2.blocked.add(player_green_2.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_2.location == player_blue_1.location &&
                     player_green_2.inHomeStrip == false &&
@@ -3647,6 +3937,108 @@ class LangawGame extends Game {
               }
               player_green_3.roll(dice_green.rolled);
               dice_green.choosePlayer = false;
+              if (player_green_3.location == player_green_1.location && player_green_1.isOut == true) {
+                print("Save");
+                blocked.add(player_green_3.location);
+                player_green_3.blocked.add(player_green_3.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_3.location == player_green_2.location && player_green_2.isOut == true) {
+                print("Save");
+                blocked.add(player_green_3.location);
+                player_green_3.blocked.add(player_green_3.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_3.location == player_green_4.location && player_green_4.isOut == true) {
+                print("Save");
+                blocked.add(player_green_3.location);
+                player_green_3.blocked.add(player_green_3.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_3.location == player_blue_1.location &&
                     player_green_3.inHomeStrip == false &&
@@ -4710,6 +5102,108 @@ class LangawGame extends Game {
               }
               player_green_4.roll(dice_green.rolled);
               dice_green.choosePlayer = false;
+              if (player_green_4.location == player_green_1.location && player_green_1.isOut == true) {
+                print("Save");
+                blocked.add(player_green_4.location);
+                player_green_4.blocked.add(player_green_4.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_4.location == player_green_3.location && player_green_3.isOut == true) {
+                print("Save");
+                blocked.add(player_green_4.location);
+                player_green_4.blocked.add(player_green_4.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_green_4.location == player_green_2.location && player_green_2.isOut == true) {
+                print("Save");
+                blocked.add(player_green_4.location);
+                player_green_4.blocked.add(player_green_4.location);
+                if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                  dice_green.isTurn = true;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  green_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = true;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    green_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_green_4.location == player_blue_1.location &&
                     player_green_4.inHomeStrip == false &&
@@ -5775,6 +6269,66 @@ class LangawGame extends Game {
               }
               player_yellow_1.roll(dice_yellow.rolled);
               dice_yellow.choosePlayer = false;
+              if (player_yellow_1.location == player_yellow_2.location && player_yellow_2.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_1.location);
+                player_yellow_1.blocked.add(player_yellow_1.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_1.location == player_yellow_3.location && player_yellow_3.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_1.location);
+                player_yellow_1.blocked.add(player_yellow_1.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_1.location == player_yellow_4.location && player_yellow_4.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_1.location);
+                player_yellow_1.blocked.add(player_yellow_1.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_1.location == player_blue_1.location &&
                     player_yellow_1.inHomeStrip == false &&
@@ -6310,6 +6864,66 @@ class LangawGame extends Game {
               }
               player_yellow_2.roll(dice_yellow.rolled);
               dice_yellow.choosePlayer = false;
+              if (player_yellow_2.location == player_yellow_1.location && player_yellow_1.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_2.location);
+                player_yellow_2.blocked.add(player_yellow_2.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_2.location == player_yellow_3.location && player_yellow_3.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_2.location);
+                player_yellow_2.blocked.add(player_yellow_2.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_2.location == player_yellow_4.location && player_yellow_4.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_2.location);
+                player_yellow_2.blocked.add(player_yellow_2.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_2.location == player_blue_1.location &&
                     player_yellow_2.inHomeStrip == false &&
@@ -6845,6 +7459,66 @@ class LangawGame extends Game {
               }
               player_yellow_3.roll(dice_yellow.rolled);
               dice_yellow.choosePlayer = false;
+              if (player_yellow_3.location == player_yellow_2.location && player_yellow_2.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_3.location);
+                player_yellow_3.blocked.add(player_yellow_3.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_3.location == player_yellow_1.location && player_yellow_1.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_3.location);
+                player_yellow_3.blocked.add(player_yellow_3.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_3.location == player_yellow_4.location && player_yellow_4.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_3.location);
+                player_yellow_3.blocked.add(player_yellow_3.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_3.location == player_blue_1.location &&
                     player_yellow_3.inHomeStrip == false &&
@@ -7380,6 +8054,66 @@ class LangawGame extends Game {
               }
               player_yellow_4.roll(dice_yellow.rolled);
               dice_yellow.choosePlayer = false;
+              if (player_yellow_4.location == player_yellow_1.location && player_yellow_1.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_4.location);
+                player_yellow_4.blocked.add(player_yellow_4.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_4.location == player_yellow_2.location && player_yellow_2.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_4.location);
+                player_yellow_4.blocked.add(player_yellow_4.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_yellow_4.location == player_yellow_3.location && player_yellow_3.isOut == true) {
+                print("Save");
+                blocked.add(player_yellow_4.location);
+                player_yellow_4.blocked.add(player_yellow_4.location);
+                if (dice_yellow.rolled == 6 && yellow_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = true;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = false;
+                  yellow_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = true;
+                    yellow_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.fourPlayer) {
                 if (player_yellow_4.location == player_blue_1.location &&
                     player_yellow_4.inHomeStrip == false &&
@@ -7917,6 +8651,87 @@ class LangawGame extends Game {
               }
               player_red_1.roll(dice_red.rolled);
               dice_red.choosePlayer = false;
+              if (player_red_1.location == player_red_2.location && player_red_2.isOut == true) {
+                print("Save");
+                blocked.add(player_red_1.location);
+                player_red_1.blocked.add(player_red_1.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_1.location == player_red_3.location && player_red_3.isOut == true) {
+                print("Save");
+                blocked.add(player_red_1.location);
+                player_red_1.blocked.add(player_red_1.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_1.location == player_red_4.location && player_red_4.isOut == true) {
+                print("Save");
+                blocked.add(player_red_1.location);
+                player_red_1.blocked.add(player_red_1.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.threePlayer) {
                 if (player_red_1.location == player_blue_1.location &&
                     player_red_1.inHomeStrip == false &&
@@ -8802,6 +9617,87 @@ class LangawGame extends Game {
               }
               player_red_2.roll(dice_red.rolled);
               dice_red.choosePlayer = false;
+              if (player_red_2.location == player_red_1.location && player_red_1.isOut == true) {
+                print("Save");
+                blocked.add(player_red_2.location);
+                player_red_2.blocked.add(player_red_2.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_2.location == player_red_3.location && player_red_3.isOut == true) {
+                print("Save");
+                blocked.add(player_red_2.location);
+                player_red_2.blocked.add(player_red_2.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_2.location == player_red_4.location && player_red_4.isOut == true) {
+                print("Save");
+                blocked.add(player_red_2.location);
+                player_red_2.blocked.add(player_red_2.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.threePlayer) {
                 if (player_red_2.location == player_blue_1.location &&
                     player_red_2.inHomeStrip == false &&
@@ -9686,6 +10582,87 @@ class LangawGame extends Game {
               }
               player_red_3.roll(dice_red.rolled);
               dice_red.choosePlayer = false;
+              if (player_red_3.location == player_red_2.location && player_red_2.isOut == true) {
+                print("Save");
+                blocked.add(player_red_3.location);
+                player_red_3.blocked.add(player_red_3.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_3.location == player_red_1.location && player_red_1.isOut == true) {
+                print("Save");
+                blocked.add(player_red_3.location);
+                player_red_3.blocked.add(player_red_3.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_3.location == player_red_4.location && player_red_4.isOut == true) {
+                print("Save");
+                blocked.add(player_red_3.location);
+                player_red_3.blocked.add(player_red_3.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.threePlayer) {
                 if (player_red_3.location == player_blue_1.location &&
                     player_red_3.inHomeStrip == false &&
@@ -10570,6 +11547,87 @@ class LangawGame extends Game {
               }
               player_red_4.roll(dice_red.rolled);
               dice_red.choosePlayer = false;
+              if (player_red_4.location == player_red_2.location && player_red_2.isOut == true) {
+                print("Save");
+                blocked.add(player_red_4.location);
+                player_red_4.blocked.add(player_red_4.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_4.location == player_red_1.location && player_red_1.isOut == true) {
+                print("Save");
+                blocked.add(player_red_4.location);
+                player_red_4.blocked.add(player_red_4.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_red_4.location == player_red_3.location && player_red_3.isOut == true) {
+                print("Save");
+                blocked.add(player_red_4.location);
+                player_red_4.blocked.add(player_red_4.location);
+                if (dice_red.rolled == 6 && red_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = true;
+                  dice_blue.isTurn = false;
+                  red_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    red_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.threePlayer) {
                 if (player_red_4.location == player_blue_1.location &&
                     player_red_4.inHomeStrip == false &&
@@ -11457,6 +12515,108 @@ class LangawGame extends Game {
               }
               player_blue_1.roll(dice_blue.rolled);
               dice_blue.choosePlayer = false;
+              if (player_blue_1.location == player_blue_2.location && player_blue_2.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_1.location);
+                player_blue_1.blocked.add(player_blue_1.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_1.location == player_blue_3.location && player_blue_3.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_1.location);
+                player_blue_1.blocked.add(player_blue_1.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_1.location == player_blue_4.location && player_blue_4.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_1.location);
+                player_blue_1.blocked.add(player_blue_1.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_1.location == player_green_1.location &&
                     player_blue_1.inHomeStrip == false &&
@@ -12472,6 +13632,108 @@ class LangawGame extends Game {
               }
               player_blue_2.roll(dice_blue.rolled);
               dice_blue.choosePlayer = false;
+              if (player_blue_2.location == player_blue_1.location && player_blue_1.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_2.location);
+                player_blue_2.blocked.add(player_blue_2.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_2.location == player_blue_3.location && player_blue_3.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_2.location);
+                player_blue_2.blocked.add(player_blue_2.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_2.location == player_blue_4.location && player_blue_4.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_2.location);
+                player_blue_2.blocked.add(player_blue_2.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_2.location == player_green_1.location &&
                     player_blue_2.inHomeStrip == false &&
@@ -13487,6 +14749,108 @@ class LangawGame extends Game {
               }
               player_blue_3.roll(dice_blue.rolled);
               dice_blue.choosePlayer = false;
+              if (player_blue_3.location == player_blue_2.location && player_blue_2.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_3.location);
+                player_blue_3.blocked.add(player_blue_3.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_3.location == player_blue_1.location && player_blue_1.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_3.location);
+                player_blue_3.blocked.add(player_blue_3.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_3.location == player_blue_4.location && player_blue_4.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_3.location);
+                player_blue_3.blocked.add(player_blue_3.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_3.location == player_green_1.location &&
                     player_blue_3.inHomeStrip == false &&
@@ -14502,6 +15866,108 @@ class LangawGame extends Game {
               }
               player_blue_4.roll(dice_blue.rolled);
               dice_blue.choosePlayer = false;
+              if (player_blue_4.location == player_blue_1.location && player_blue_1.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_4.location);
+                player_blue_4.blocked.add(player_blue_4.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_4.location == player_blue_2.location && player_blue_2.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_4.location);
+                player_blue_4.blocked.add(player_blue_4.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
+              else if (player_blue_4.location == player_blue_3.location && player_blue_3.isOut == true) {
+                print("Save");
+                blocked.add(player_blue_4.location);
+                player_blue_4.blocked.add(player_blue_4.location);
+                if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  dice_green.isTurn = false;
+                  dice_yellow.isTurn = false;
+                  dice_red.isTurn = false;
+                  dice_blue.isTurn = true;
+                  blue_six_counter += 1;
+                } else {
+                  if(activeMode == Mode.twoPlayer){
+                    dice_green.isTurn = true;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = false;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.threePlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                  else if(activeMode == Mode.fourPlayer){
+                    dice_green.isTurn = false;
+                    dice_yellow.isTurn = false;
+                    dice_red.isTurn = true;
+                    dice_blue.isTurn = false;
+                    blue_six_counter = 0;
+                  }
+                }
+              }
               if (activeMode == Mode.twoPlayer) {
                 if (player_blue_4.location == player_green_1.location &&
                     player_blue_4.inHomeStrip == false &&
