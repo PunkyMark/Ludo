@@ -89,7 +89,7 @@ class Player {
   }
 
   void update(double t) {
-    if (total_moved + rolled <= 57 && (game.blocked.contains(location) == false || blocked.contains(location))) {
+    if (total_moved + rolled <= 57 && (game.blocked.contains(location) == false || blocked.contains(location))) {// && (game.blocked_logic(game.barrier, rolled, location) == true)) {
       if (position != 0) {
         position += 0.5;
       }
