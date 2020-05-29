@@ -1592,7 +1592,11 @@ class LangawGame extends Game {
      */  }
 
   void onTapUp(TapUpDetails d) {
-    print(dice_yellow.isTurn);
+    print("Green : $green_six_counter");
+    print("Blue : $blue_six_counter");
+    print("Red : $red_six_counter");
+    print("Yellow : $yellow_six_counter");
+
     if(activeView == View.playing) {
       if (activeMode == Mode.twoPlayer || activeMode == Mode.threePlayer ||
           activeMode == Mode.fourPlayer) {
@@ -1744,7 +1748,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_green_1.location == player_blue_1.location &&
                     player_green_1.inHomeStrip == false &&
                     player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
@@ -2765,7 +2769,7 @@ class LangawGame extends Game {
                     }
                   }
                 }
-                else if (dice_green.rolled == 6 && green_six_counter <= 1) {
+                else if (dice_green.rolled == 6 && green_six_counter <= 2) {
                   dice_green.isTurn = true;
                   dice_blue.isTurn = false;
                   dice_yellow.isTurn = false;
@@ -2782,8 +2786,6 @@ class LangawGame extends Game {
             }
           }
         }
-
-
         if (dice_green.choosePlayer == true &&
             player_green_2.playerRect.inflate(playertileSize / 2).contains(
                 d.globalPosition)) {
@@ -2905,7 +2907,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_green_2.location == player_blue_1.location &&
                     player_green_2.inHomeStrip == false &&
                     player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
@@ -4076,7 +4078,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_green_3.location == player_blue_1.location &&
                     player_green_3.inHomeStrip == false &&
                     player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
@@ -5247,7 +5249,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_green_4.location == player_blue_1.location &&
                     player_green_4.inHomeStrip == false &&
                     player_blue_1.inHomeStrip == false && player_blue_1.isOut == true) {
@@ -12714,7 +12716,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_blue_1.location == player_green_1.location &&
                     player_blue_1.inHomeStrip == false &&
                     player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
@@ -13837,7 +13839,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_blue_2.location == player_green_1.location &&
                     player_blue_2.inHomeStrip == false &&
                     player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
@@ -14960,7 +14962,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_blue_3.location == player_green_1.location &&
                     player_blue_3.inHomeStrip == false &&
                     player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
@@ -16083,7 +16085,7 @@ class LangawGame extends Game {
                   }
                 }
               }
-              if (activeMode == Mode.twoPlayer) {
+              else if (activeMode == Mode.twoPlayer) {
                 if (player_blue_4.location == player_green_1.location &&
                     player_blue_4.inHomeStrip == false &&
                     player_green_1.inHomeStrip == false && player_green_1.isOut == true) {
@@ -17069,12 +17071,14 @@ class LangawGame extends Game {
                   }
                 }
                 else if (dice_blue.rolled == 6 && blue_six_counter <= 1) {
+                  print("xTAR Roll");
                   dice_green.isTurn = false;
                   dice_yellow.isTurn = false;
                   dice_red.isTurn = false;
                   dice_blue.isTurn = true;
                   blue_six_counter += 1;
                 } else {
+                  print("Roll");
                   dice_green.isTurn = false;
                   dice_yellow.isTurn = false;
                   dice_red.isTurn = true;
