@@ -24,6 +24,7 @@ class Player {
   Paint playerPaint;
   int location = 0 ;
   double position = 0 ;
+  bool adjust_player = false;
   double x;
   double y;
   Sprite player;
@@ -89,7 +90,12 @@ class Player {
   }
 
   void update(double t) {
-    if (total_moved + rolled <= 57 && (game.blocked.contains(location) == false || blocked.contains(location))) {// && (game.blocked_logic(game.barrier, rolled, location) == true)) {
+    if (adjust_player){
+      x += game.playertileSize / 4;
+      playerRect = playerRect.translate(game.playertileSize / 4, 0);
+      adjust_player = false;
+    }
+    else if (total_moved + rolled <= 57 && (game.blocked.contains(location) == false || blocked.contains(location))) {// && (game.blocked_logic(game.barrier, rolled, location) == true)) {
       if (position != 0) {
         position += 0.5;
       }

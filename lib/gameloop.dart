@@ -988,6 +988,10 @@ class LangawGame extends Game {
           player_green_1.counter = 0;
           player_green_1.rolled = 0;
           player_green_1.dicerolled = false;
+          if (player_green_1.blocked.contains(player_green_1.location)){
+            player_green_1.adjust_player = true;
+            player_green_1.update(t);
+          }
         }
       }
 
@@ -999,6 +1003,10 @@ class LangawGame extends Game {
           player_green_2.counter = 0;
           player_green_2.rolled = 0;
           player_green_2.dicerolled = false;
+          if (player_green_2.blocked.contains(player_green_2.location)){
+            player_green_2.adjust_player = true;
+            player_green_2.update(t);
+          }
         }
       }
 
@@ -1010,6 +1018,10 @@ class LangawGame extends Game {
           player_green_3.counter = 0;
           player_green_3.rolled = 0;
           player_green_3.dicerolled = false;
+          if (player_green_3.blocked.contains(player_green_3.location)){
+            player_green_3.adjust_player = true;
+            player_green_3.update(t);
+          }
         }
       }
 
@@ -1021,6 +1033,10 @@ class LangawGame extends Game {
           player_green_4.counter = 0;
           player_green_4.rolled = 0;
           player_green_4.dicerolled = false;
+          if (player_green_4.blocked.contains(player_green_4.location)){
+            player_green_4.adjust_player = true;
+            player_green_4.update(t);
+          }
         }
       }
     }
@@ -1034,6 +1050,10 @@ class LangawGame extends Game {
           player_yellow_1.counter = 0;
           player_yellow_1.rolled = 0;
           player_yellow_1.dicerolled = false;
+          if (player_yellow_1.blocked.contains(player_yellow_1.location)){
+            player_yellow_1.adjust_player = true;
+            player_yellow_1.update(t);
+          }
         }
       }
       if (activeView == View.playing && player_yellow_2.dicerolled == true ||
@@ -1044,6 +1064,10 @@ class LangawGame extends Game {
           player_yellow_2.counter = 0;
           player_yellow_2.rolled = 0;
           player_yellow_2.dicerolled = false;
+          if (player_yellow_2.blocked.contains(player_yellow_2.location)){
+            player_yellow_2.adjust_player = true;
+            player_yellow_2.update(t);
+          }
         }
       }
       if (activeView == View.playing && player_yellow_3.dicerolled == true ||
@@ -1054,6 +1078,10 @@ class LangawGame extends Game {
           player_yellow_3.counter = 0;
           player_yellow_3.rolled = 0;
           player_yellow_3.dicerolled = false;
+          if (player_yellow_3.blocked.contains(player_yellow_3.location)){
+            player_yellow_3.adjust_player = true;
+            player_yellow_3.update(t);
+          }
         }
       }
       if (activeView == View.playing && player_yellow_4.dicerolled == true ||
@@ -1064,6 +1092,10 @@ class LangawGame extends Game {
           player_yellow_4.counter = 0;
           player_yellow_4.rolled = 0;
           player_yellow_4.dicerolled = false;
+          if (player_yellow_4.blocked.contains(player_yellow_4.location)){
+            player_yellow_4.adjust_player = true;
+            player_yellow_4.update(t);
+          }
         }
       }
     }
@@ -1077,6 +1109,10 @@ class LangawGame extends Game {
           player_red_1.counter = 0;
           player_red_1.rolled = 0;
           player_red_1.dicerolled = false;
+          if (player_red_1.blocked.contains(player_red_1.location)){
+            player_red_1.adjust_player = true;
+            player_red_1.update(t);
+          }
         }
       }
 
@@ -1088,6 +1124,10 @@ class LangawGame extends Game {
           player_red_2.counter = 0;
           player_red_2.rolled = 0;
           player_red_2.dicerolled = false;
+          if (player_red_2.blocked.contains(player_red_2.location)){
+            player_red_2.adjust_player = true;
+            player_red_2.update(t);
+          }
         }
       }
 
@@ -1099,6 +1139,10 @@ class LangawGame extends Game {
           player_red_3.counter = 0;
           player_red_3.rolled = 0;
           player_red_3.dicerolled = false;
+          if (player_red_3.blocked.contains(player_red_3.location)){
+            player_red_3.adjust_player = true;
+            player_red_3.update(t);
+          }
         }
       }
 
@@ -1110,6 +1154,10 @@ class LangawGame extends Game {
           player_red_4.counter = 0;
           player_red_4.rolled = 0;
           player_red_4.dicerolled = false;
+          if (player_red_4.blocked.contains(player_red_4.location)){
+            player_red_4.adjust_player = true;
+            player_red_4.update(t);
+          }
         }
       }
     }
@@ -1123,6 +1171,10 @@ class LangawGame extends Game {
           player_blue_1.counter = 0;
           player_blue_1.rolled = 0;
           player_blue_1.dicerolled = false;
+          if (player_blue_1.blocked.contains(player_blue_1.location)){
+            player_blue_1.adjust_player = true;
+            player_blue_1.update(t);
+          }
         }
       }
       if (activeView == View.playing && player_blue_2.dicerolled == true ||
@@ -1133,6 +1185,10 @@ class LangawGame extends Game {
           player_blue_2.counter = 0;
           player_blue_2.rolled = 0;
           player_blue_2.dicerolled = false;
+          if (player_blue_2.blocked.contains(player_blue_2.location)){
+            player_blue_2.adjust_player = true;
+            player_blue_2.update(t);
+          }
         }
       }
       if (activeView == View.playing && player_blue_3.dicerolled == true ||
@@ -1143,6 +1199,10 @@ class LangawGame extends Game {
           player_blue_3.counter = 0;
           player_blue_3.rolled = 0;
           player_blue_3.dicerolled = false;
+          if (player_blue_3.blocked.contains(player_blue_3.location)){
+            player_blue_3.adjust_player = true;
+            player_blue_3.update(t);
+          }
         }
       }
       if (activeView == View.playing && player_blue_4.dicerolled == true ||
@@ -1153,6 +1213,10 @@ class LangawGame extends Game {
           player_blue_4.counter = 0;
           player_blue_4.rolled = 0;
           player_blue_4.dicerolled = false;
+          if (player_blue_4.blocked.contains(player_blue_4.location)){
+            player_blue_4.adjust_player = true;
+            player_blue_4.update(t);
+          }
         }
       }
     }
@@ -1636,6 +1700,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_green_1.location)) {
                 blocked.remove(player_green_1.location);
                 player_green_1.blocked.remove(player_green_1.location);
+                player_green_1.x -= playertileSize / 4;
+                player_green_1.playerRect = player_green_1.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_green_1.location)) {
                 barrier.remove(player_green_1.location);
@@ -2796,6 +2862,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_green_2.location)) {
                 blocked.remove(player_green_2.location);
                 player_green_2.blocked.remove(player_green_2.location);
+                player_green_2.x -= playertileSize / 4;
+                player_green_2.playerRect = player_green_2.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_green_2.location)) {
                 barrier.remove(player_green_2.location);
@@ -3967,6 +4035,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_green_3.location)) {
                 blocked.remove(player_green_3.location);
                 player_green_3.blocked.remove(player_green_3.location);
+                player_green_3.x -= playertileSize / 4;
+                player_green_3.playerRect = player_green_3.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_green_3.location)) {
                 barrier.remove(player_green_3.location);
@@ -5138,6 +5208,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_green_4.location)) {
                 blocked.remove(player_green_4.location);
                 player_green_4.blocked.remove(player_green_4.location);
+                player_green_4.x -= playertileSize / 4;
+                player_green_4.playerRect = player_green_4.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_green_4.location)) {
                 barrier.remove(player_green_4.location);
@@ -6311,6 +6383,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_yellow_1.location)) {
                 blocked.remove(player_yellow_1.location);
                 player_yellow_1.blocked.remove(player_yellow_1.location);
+                player_yellow_1.x -= playertileSize / 4;
+                player_yellow_1.playerRect = player_yellow_1.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_yellow_1.location)) {
                 barrier.remove(player_yellow_1.location);
@@ -6912,6 +6986,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_yellow_2.location)) {
                 blocked.remove(player_yellow_2.location);
                 player_yellow_2.blocked.remove(player_yellow_2.location);
+                player_yellow_2.x -= playertileSize / 4;
+                player_yellow_2.playerRect = player_yellow_2.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_yellow_2.location)) {
                 barrier.remove(player_yellow_2.location);
@@ -7513,6 +7589,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_yellow_3.location)) {
                 blocked.remove(player_yellow_3.location);
                 player_yellow_3.blocked.remove(player_yellow_3.location);
+                player_yellow_3.x -= playertileSize / 4;
+                player_yellow_3.playerRect = player_yellow_3.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_yellow_3.location)) {
                 barrier.remove(player_yellow_3.location);
@@ -8114,6 +8192,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_yellow_4.location)) {
                 blocked.remove(player_yellow_4.location);
                 player_yellow_4.blocked.remove(player_yellow_4.location);
+                player_yellow_4.x -= playertileSize / 4;
+                player_yellow_4.playerRect = player_yellow_4.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_yellow_4.location)) {
                 barrier.remove(player_yellow_4.location);
@@ -8717,6 +8797,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_red_1.location)) {
                 blocked.remove(player_red_1.location);
                 player_red_1.blocked.remove(player_red_1.location);
+                player_red_1.x -= playertileSize / 4;
+                player_red_1.playerRect = player_red_1.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_red_1.location)) {
                 barrier.remove(player_red_1.location);
@@ -9689,6 +9771,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_red_2.location)) {
                 blocked.remove(player_red_2.location);
                 player_red_2.blocked.remove(player_red_2.location);
+                player_red_2.x -= playertileSize / 4;
+                player_red_2.playerRect = player_red_2.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_red_2.location)) {
                 barrier.remove(player_red_2.location);
@@ -10660,6 +10744,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_red_3.location)) {
                 blocked.remove(player_red_3.location);
                 player_red_3.blocked.remove(player_red_3.location);
+                player_red_3.x -= playertileSize / 4;
+                player_red_3.playerRect = player_red_3.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_red_3.location)) {
                 barrier.remove(player_red_3.location);
@@ -11631,6 +11717,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_red_4.location)) {
                 blocked.remove(player_red_4.location);
                 player_red_4.blocked.remove(player_red_4.location);
+                player_red_4.x -= playertileSize / 4;
+                player_red_4.playerRect = player_red_4.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_red_4.location)) {
                 barrier.remove(player_red_4.location);
@@ -12605,6 +12693,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_blue_1.location)) {
                 blocked.remove(player_blue_1.location);
                 player_blue_1.blocked.remove(player_blue_1.location);
+                player_blue_1.x -= playertileSize / 4;
+                player_blue_1.playerRect = player_blue_1.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_blue_1.location)) {
                 barrier.remove(player_blue_1.location);
@@ -13728,6 +13818,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_blue_2.location)) {
                 blocked.remove(player_blue_2.location);
                 player_blue_2.blocked.remove(player_blue_2.location);
+                player_blue_2.x -= playertileSize / 4;
+                player_blue_2.playerRect = player_blue_2.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_blue_2.location)) {
                 barrier.remove(player_blue_2.location);
@@ -14851,6 +14943,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_blue_3.location)) {
                 blocked.remove(player_blue_3.location);
                 player_blue_3.blocked.remove(player_blue_3.location);
+                player_blue_3.x -= playertileSize / 4;
+                player_blue_3.playerRect = player_blue_3.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_blue_3.location)) {
                 barrier.remove(player_blue_3.location);
@@ -15974,6 +16068,8 @@ class LangawGame extends Game {
               if (blocked.contains(player_blue_4.location)) {
                 blocked.remove(player_blue_4.location);
                 player_blue_4.blocked.remove(player_blue_4.location);
+                player_blue_4.x -= playertileSize / 4;
+                player_blue_4.playerRect = player_blue_4.playerRect.translate(-playertileSize / 4, 0);
               }
               if (barrier.contains(player_blue_4.location)) {
                 barrier.remove(player_blue_4.location);
