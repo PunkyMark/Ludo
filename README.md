@@ -1,2 +1,2 @@
 # Ludo Mobile Game
-Made with flutter for IOS and Android.
+Made with Flutter for IOS and Android.
